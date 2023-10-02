@@ -21,7 +21,7 @@ function Header() {
                         </ul>
                     </nav>
 
-                    <Link href="/signup" className='sm:block font-semibold text-primary-main font-sora text-lg p-3 rounded-[5px] transition-all hover:bg-primary-main hover:text-white'>
+                    <Link href="/signup" className='hidden sm:block font-semibold text-primary-main font-sora text-lg p-3 rounded-[5px] transition-all hover:bg-primary-main hover:text-white'>
                         Get Started
                     </Link>
                     <button onClick={()=>setShowMenu(true)} className='sm:hidden'>
