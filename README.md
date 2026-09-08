@@ -1,4 +1,4 @@
-FINAL INTERVIEW PREPARATION GUIDE – 70 QUESTIONS & ANSWERS
+FINAL INTERVIEW PREPARATION GUIDE – 70 QUESTIONS & ANSWERS 
 Simple, natural wording for easier memorization. Do not memorize every word—understand the structure and speak 
 naturally.
 SECTION 1: INTRODUCTION AND CAREER STORY
