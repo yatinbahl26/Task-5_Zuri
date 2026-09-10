@@ -710,3 +710,80 @@ Can you tell me some of the payment processors you know or have worked with?
 
 
 RFI, Liens, AML, Fraud, AML and fraud terminology, why regularisation is required and some scenarios based questions
+
+
+What do you understand about RFI?
+“RFI stands for Request for Information. It is used when we need additional information or clarification to complete an investigation. For example, if a transaction or account activity looks unusual, we may ask for supporting information about the purpose of the transaction, the business activity, or the source of funds. I would follow the company's process and request only relevant information.”
+
+Remember: RFI = additional information + clarification + investigation
+
+2. What is a lien, and can a lien be applied after a transaction goes through?
+“A lien is a legal claim or hold over funds or assets because of a financial or legal obligation. Yes, depending on the legal order and the applicable process, a lien can affect funds even after a transaction has been processed. So, I would follow the applicable legal and internal process rather than assuming that a completed transaction cannot be affected.”
+
+Remember: Lien = legal claim/hold + funds/assets + legal process
+
+⚠️ Don't say a lien automatically reverses a transaction.
+
+3. What do you understand about sanctions?
+“Sanctions are restrictions imposed by governments or international bodies on certain individuals, organizations, countries, or activities. In financial services, companies screen customers and transactions against sanctions lists. If there is a potential match, I would follow the company's procedure and escalate it to the appropriate team for further review.”
+
+Remember: Restrictions → screening → potential match → escalation
+
+4. What is the reason you want to move from your current role?
+“My current role has given me good experience in transaction monitoring, merchant investigations, fraud indicators, and risk-based decision making. Now I want to move into a broader payment risk and financial crime role where I can work on more complex investigations and develop my career further. I believe this opportunity is a good fit for my experience and long-term career goals.”
+
+If they ask “Why are you leaving Concentrix?”, don't complain about salary, commute, management, or workload.
+
+Say:
+
+“I'm looking for a role with broader responsibilities and stronger long-term growth in payments risk and financial crime.”
+
+5. What specific details should you keep private and not share about a customer in an RFI request?
+“I would only share information that is relevant, authorized, and required for the specific request. I would not share unnecessary confidential information such as passwords, authentication credentials, security information, or unrelated customer data. I would always follow the company's privacy and data-sharing procedures.”
+
+Remember: Relevant + authorized + necessary + confidential
+
+If they challenge you with “What if law enforcement asks for it?”:
+
+“I would follow the authorized legal and internal process and provide information only within the valid scope of the request.”
+
+6. Explain the flow of a transaction from the customer's bank to the merchant's bank.
+Keep this simple. Don't try to impress them with unnecessary technical terms.
+
+“The customer initiates a payment using a card or another payment method. The payment is sent through the relevant payment processor or network for authorization. Once the payment is approved and processed, the funds go through the settlement process and are eventually transferred to the merchant's designated bank account, after applicable fees or holds.”
+
+Remember the flow:
+Customer → Payment method → Processor/Network → Merchant → Settlement → Merchant bank
+
+If they ask you to explain card payment specifically, we can go deeper tomorrow.
+
+7. What information can be asked by a merchant or law-enforcement agency in an RFI request, keeping Airbnb in mind?
+This is probably the most important recruiter question.
+
+“For a merchant or customer RFI, we may request information that helps us understand the transaction or account activity, such as the purpose of the transaction, supporting documents, business information, identity information, or source of funds, depending on the case.
+
+For a law-enforcement request, I would not independently decide what information to provide. I would follow the company's legal and internal process and provide only the information that is legally requested and within the authorized scope.”
+
+If they ask: "Give me examples."
+Say:
+
+“Depending on the request, it could include identity or account information, transaction details, payment information, reservation or activity information, or supporting records relevant to the investigation.”
+
+Remember:
+Customer/merchant RFI → clarify the activity
+Law enforcement → valid request + authorized process + appropriate scope
+
+8. Can you tell me some payment processors you know or have worked with?
+Be very careful here because you don't want to claim something you haven't actually done.
+
+“I have worked on the payment operations and merchant-monitoring side rather than directly working for a payment processor. Some payment companies and platforms I am familiar with are Stripe, Adyen, PayPal, Square, and Worldpay. I understand that payment processors help facilitate payment authorization, processing, and settlement.”
+
+If they ask:
+
+“Which one have you personally worked with?”
+
+Don't invent experience.
+
+Say:
+
+“My direct experience is primarily on the merchant transaction-monitoring and payment-operations side, rather than directly working for a payment processor.”
