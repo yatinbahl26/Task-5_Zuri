@@ -639,3 +639,45 @@
  > **Remember:** A red flag is a reason to investigate — not automatic proof of fraud.
 
  This is ready to save as **`README.md`**.
+
+
+
+
+PROFESSIONAL SUMMARY
+Financial crime and transaction monitoring professional with 2.9 years of First Line of Defense (1LoD) experience in AML, KYC/KYB, 
+transaction monitoring, and fraud investigations. Experienced in identifying money laundering and terrorist financing risks, conducting 
+customer due diligence (CDD/EDD), and resolving complex cases using a risk-based approach. Hands-on experience with tools such as 
+LexisNexis, Ekata, and EmailAge, along with a solid understanding of BSA/USA PATRIOT Act requirements and quality control 
+standards. Looking to contribute my analytical skills and compliance expertise in an AML, KYC, or Financial Crime Compliance Analyst 
+role.
+CORE COMPETENCIES
+AML Compliance • Money Laundering Prevention • Terrorist Financing (TF) Risk Identification • KYC / KYB • Customer Due Diligence 
+(CDD) • Ongoing Due Diligence (ODD) • Source of Funds (SOF) Verification • L1 Transaction Monitoring • Financial Crime 
+Investigation • Fraud Investigation • Risk Assessment • Suspicious Activity Identification • Structuring & Smurfing Indicators • Reporting 
+Threshold Monitoring • Geographic Risk Assessment • Business & Identity Verification • Case Investigation • Quality Control (QC) • 
+Risk-Based Decision Making • Regulatory Compliance (BSA / USA PATRIOT Act) • Case Documentation • SLA Adherence
+TECHNICAL SKILLS
+AML & Risk Tools: LexisNexis, Ekata, Email Age • Data Analysis: SQL (Intermediate), Microsoft Excel (Intermediate), Power BI 
+(Basic) • CRM: Salesforce CRM • Microsoft Office: Word, PowerPoint
+PROFESSIONAL EXPERIENCE
+Transaction Processing Advisor | Concentrix | Gurugram | May 2026 – Present
+• Conduct L1 monitoring on 25 daily alerts, achieving 99.8%–100% accuracy within SLA to achieve first Line of Defence. 
+• Identify red flags, money laundering, structuring, TF, and sanctioned countries at risk escalating to compliance teams. 
+• Verify source of funds (SOF), detecting ATO, geo-mismatch, VPN bypass, and identity theft risk. 
+• Perform KYC/KYB due diligence (CDD/ODD) using LexisNexis, Ekata, and Email Age, flagging business impersonation. 
+• Disposition alerts (clear, escalate) and document case narratives, supporting SAR determinations.
+Operations Analyst | FIS Global | Gurugram | Feb 2024 – Apr 2026
+• Reviewed 20–30 daily payment and cheque transactions, identifying anomalies and fraud indicators.
+• Conducted customer verification and payment investigations, resolving exceptions via documentation review.
+• Maintained audit-ready investigation records ensuring compliance with operational and quality standards.
+• Achieved 100% accuracy; trained new hires, earning Pinnacle Award in 2025.
+Customer Support Associate | Tech Mahindra | Noida | Aug 2023 – Jan 2024
+• Performed KYC identity verification, collecting government IDs (driver's license, passport, SSN) for verification checks. 
+• Identified discrepancies and fraud indicators during KYC checks, escalating flagged cases to internal teams for review.
+• Handled 30–40 daily KYC verification interactions, balancing accuracy with service-level response time expectations.
+AWARDS & RECOGNITION
+Pinnacle Award – Best Performance 2025 • FIS Global | R&R Award • FIS Global | R&R Award • Tech Mahindra
+EDUCATION
+Bachelor of Technology (Computer Science & Engineering) | PDM University, Haryana | 2019 – 2023
+LANGUAGES
+English (Fluent) • Hindi (Native)
