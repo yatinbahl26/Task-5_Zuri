@@ -1,3 +1,303 @@
+Absolutely — below are **interview-ready answers** for a **Consumer Lending / Credit Assessment / Lending Operations** role. You can adapt the examples to match your actual experience.
+
+ ## 1\. What is consumer lending?
+
+ Consumer lending is the process of providing credit to individuals for personal purposes, such as personal loans, vehicle loans, credit cards, or home loans.
+
+ The lender assesses the applicant's **income, expenses, credit history, existing liabilities, employment, and overall ability to repay** before approving the loan. The objective is to lend responsibly while managing the lender's credit and fraud risk.
+
+---
+
+ ## 2\. Explain the end-to-end consumer lending lifecycle.
+
+ The consumer lending lifecycle generally includes:
+
+ 1. **Application** – The customer submits a loan application and supporting documents.
+2. **Document collection and verification** – Identity, income, employment, bank statements, and other required documents are checked.
+3. **Credit assessment** – The lender evaluates credit history, income, expenses, liabilities, and repayment capacity.
+4. **Fraud and compliance checks** – The application is screened for inconsistencies, fraud indicators, AML/KYC concerns, and policy requirements.
+5. **Affordability/serviceability assessment** – The lender determines whether the applicant can comfortably meet the proposed repayments.
+6. **Decisioning** – The application is approved, declined, or referred/escalated depending on the assessment and lending authority.
+7. **Documentation and settlement** – Final documents are completed and the loan is funded.
+8. **Post-settlement monitoring** – The lender monitors repayments, arrears, customer circumstances, and potential risks.
+9. **Loan closure** – Once the balance is fully repaid, the account is closed.
+
+---
+
+ ## 3\. What is credit assessment?
+
+ Credit assessment is the process of evaluating an applicant's **ability and willingness to repay a loan**.
+
+ I would review information such as income, employment, expenses, existing debts, credit history, bank transactions, requested loan amount, and supporting documentation. I would then compare the information against the lender's **credit policy and responsible lending requirements** before making or recommending a decision.
+
+---
+
+ ## 4\. What factors do you consider when assessing a borrower?
+
+ I would consider several areas:
+
+ - **Income** – Amount, source, stability, and frequency.
+- **Employment** – Length of employment and employment type.
+- **Existing liabilities** – Loans, credit cards, BNPL facilities, and other commitments.
+- **Living expenses** – Regular household and personal expenses.
+- **Credit history** – Repayment history, defaults, enquiries, and existing credit exposure.
+- **Loan purpose and amount** – Whether the requested facility is appropriate.
+- **Affordability/serviceability** – Whether the applicant can meet repayments.
+- **Assets and liabilities** – Overall financial position where relevant.
+- **Documentation quality** – Whether information is complete, consistent, and verifiable.
+- **Fraud/KYC indicators** – Any unusual or contradictory information.
+
+ I would assess these factors together rather than relying on one factor in isolation.
+
+---
+
+ ## 5\. What is affordability/serviceability?
+
+ Affordability or serviceability is the assessment of whether a customer has **sufficient income remaining after reasonable living expenses and existing financial commitments to meet the proposed loan repayment**.
+
+ For example:
+
+ **Net income – living expenses – existing commitments – proposed loan repayment = remaining surplus**
+
+ I would also consider the lender's policy requirements and any applicable assessment buffers rather than simply looking at whether the customer can make the repayment today.
+
+---
+
+ ## 6\. What is creditworthiness?
+
+ Creditworthiness is an assessment of how likely a borrower is to **meet their financial obligations as agreed**.
+
+ It can be assessed using factors such as:
+
+ - Credit history and repayment behaviour
+- Existing debt
+- Income and employment stability
+- Expenses
+- Previous defaults or adverse credit events
+- Current credit exposure
+- Overall financial position
+
+ In simple terms, it answers the question: **"Does the available evidence indicate that this customer is able and likely to repay the credit responsibly?"**
+
+---
+
+ ## 7\. What is Delegated Lending Authority (DLA)?
+
+ Delegated Lending Authority, or DLA, is the level of **decision-making authority formally granted to an employee based on their role, experience, and organisational policy**.
+
+ For example, an assessor may have authority to approve loans up to a particular amount or within specified risk parameters.
+
+ DLA is important because it ensures decisions are made within clearly defined risk limits and creates appropriate controls around lending decisions.
+
+---
+
+ ## 8\. What would you do if an application falls outside your authority?
+
+ I would **not approve it outside my delegated authority**.
+
+ I would:
+
+ 1. Complete the assessment within my role.
+2. Clearly document my findings and any relevant risks.
+3. Check the applicable lending policy.
+4. Escalate or refer the application to the appropriate person with the required authority.
+5. Ensure the handover contains all relevant information so the case does not need to be unnecessarily reassessed.
+
+ I would never bypass an authority limit simply to meet an SLA.
+
+---
+
+ ## 9\. How would you identify discrepancies in an applicant's documents?
+
+ I would compare information **across multiple sources rather than reviewing each document in isolation**.
+
+ For example, I would compare:
+
+ - Name and personal details
+- Employer information
+- Employment dates
+- Salary and pay frequency
+- Payslip net/gross income
+- Bank statement salary credits
+- Account balances and transaction patterns
+- Existing liabilities
+- Dates and document sequences
+
+ I'd also look for unusual formatting, inconsistent fonts, altered numbers, missing pages, unexplained transactions, or information that doesn't logically match.
+
+ If something doesn't make sense, I would investigate further rather than immediately assuming fraud.
+
+---
+
+ ## 10\. What would you do if income on a payslip doesn't match the bank statement?
+
+ I would treat it as a discrepancy requiring clarification.
+
+ First, I would determine whether there is a legitimate explanation. For example, the payslip could show **gross income while the bank statement reflects net income**, or there could be deductions, salary packaging, or another legitimate adjustment.
+
+ I would then check the relevant pay dates and transaction amounts and request additional evidence if required under policy.
+
+ If the discrepancy remains unexplained or raises a potential fraud concern, I would **pause the assessment and escalate it through the appropriate process** rather than making an assumption.
+
+---
+
+ ## 11. How would you handle missing documentation?
+
+ I would first check the application against the required document checklist and identify exactly what is missing.
+
+ I would then:
+
+ - Determine whether the document is mandatory.
+- Request the missing information through the appropriate channel.
+- Clearly record what has been requested.
+- Follow up according to the applicable SLA/process.
+- Avoid making a final decision if the missing information is necessary to properly assess the application.
+
+ My approach would be **"complete and verify before deciding"**, rather than trying to fill gaps with assumptions.
+
+---
+
+ ## 12\. How would you handle a potentially fraudulent/altered document?
+
+ I would remain objective and avoid making an immediate accusation.
+
+ I would:
+
+ 1. Identify and document the specific irregularities.
+2. Compare the document with other information available.
+3. Follow the organisation's fraud verification procedure.
+4. Request additional verification if appropriate.
+5. Escalate to the relevant fraud/risk/compliance team where required.
+6. Avoid approving or progressing the application contrary to policy.
+
+ The key is to **protect the organisation and customer while following the correct process and maintaining confidentiality**.
+
+---
+
+ ## 13\. What is responsible lending?
+
+ Responsible lending means making credit decisions in a way that considers the **customer's financial circumstances and ability to repay**, rather than simply focusing on generating business.
+
+ It involves ensuring the credit is appropriate for the customer, verifying relevant information, assessing affordability, identifying potential risks, and complying with applicable laws and internal policies.
+
+ The goal is to avoid placing customers into credit arrangements that are unsuitable or likely to cause financial difficulty.
+
+---
+
+ ## 14\. How do you balance productivity, SLA and quality?
+
+ I believe **quality and risk controls should not be sacrificed simply to meet an SLA**.
+
+ My approach would be:
+
+ - Understand the SLA and prioritise work accordingly.
+- Use a consistent assessment checklist.
+- Review documents systematically.
+- Identify issues early rather than discovering them at the end.
+- Use templates and Excel/system tools to improve efficiency.
+- Avoid unnecessary rework by getting the assessment right the first time.
+- Escalate genuine exceptions promptly.
+
+ I aim for **accurate first-time processing**, because poor-quality work can create more delays than taking the appropriate time to assess a case correctly.
+
+---
+
+ # Behavioural Questions
+
+ For these questions, use the **STAR method: Situation → Task → Action → Result**.
+
+ ## 15\. Tell me about a time you identified a risk or discrepancy.
+
+ **Sample answer:**
+
+ > In a previous banking role, I was reviewing a customer profile and noticed that some of the information provided did not appear consistent with the transaction activity and supporting documentation.
+>
+>  My responsibility was to make sure the information was properly verified before the case progressed.
+>
+>  I compared the available documents and transaction information, identified the specific inconsistencies, documented my observations, and escalated the case through the appropriate process rather than making assumptions.
+>
+>  The case was subsequently reviewed, and the issue was addressed before the application/process could proceed. This experience reinforced the importance of attention to detail and not overlooking small inconsistencies.
+
+ **Tip:** Replace this with a real example from your banking/AML experience if you have one.
+
+---
+
+ ## 16\. Tell me about a time you had to escalate a case.
+
+ **Sample answer:**
+
+ > In my previous banking/AML experience, I came across a case where the available information required further investigation and was outside the level of decision-making I could make independently.
+>
+>  Rather than making an assumption or proceeding without sufficient evidence, I reviewed the relevant information, documented the facts clearly, and escalated the case to the appropriate team.
+>
+>  I made sure the escalation included the reason for referral, the supporting information, and the specific issue that needed review.
+>
+>  This helped ensure the case was handled by the appropriate authority while maintaining both compliance and process quality.
+
+---
+
+ # Technical Questions
+
+ ## 17\. What Excel functions do you know?
+
+ You can give a confident but honest answer such as:
+
+ > I have experience with Excel functions including **SUM, AVERAGE, COUNT, COUNTIF, SUMIF, IF, AND, OR, XLOOKUP/VLOOKUP, INDEX-MATCH, IFERROR, LEFT, RIGHT, MID, LEN, TRIM, CONCAT, and date functions**.
+>
+>  I'm also comfortable with sorting, filtering, conditional formatting, data validation, pivot tables, and basic data analysis.
+>
+>  In a lending environment, I could use these functions to reconcile information, identify discrepancies, analyse application data, and improve reporting efficiency.
+
+ If you haven't used a particular function professionally, don't claim that you have. You can say you're familiar with it or currently learning it.
+
+---
+
+ ## 18\. How does your previous banking/AML experience relate to this position?
+
+ This is a strong opportunity to connect your previous experience to lending.
+
+ > My banking and AML experience has given me a strong foundation in **document verification, customer due diligence, transaction analysis, risk identification, attention to detail, and following regulatory and internal procedures**.
+>
+>  Those skills are directly relevant to consumer lending because credit assessment also requires you to verify information, identify inconsistencies, assess risk, follow policy, and make decisions based on evidence.
+>
+>  My AML experience has also taught me not to ignore unusual information. If something doesn't make sense, I investigate it, document my findings, and escalate it through the appropriate channel.
+>
+>  I believe that combination of banking knowledge, risk awareness, analytical skills, and attention to detail would allow me to transition effectively into a consumer lending role.
+
+---
+
+ # 19\. Why should we hire you?
+
+ Here's a strong answer that ties everything together:
+
+ > I believe I would be a strong fit because I bring relevant banking and AML experience, strong attention to detail, and a risk-focused approach.
+>
+>  I'm comfortable reviewing information, identifying discrepancies, following procedures, and escalating issues when they fall outside my authority or require further investigation.
+>
+>  At the same time, I understand that lending is also about delivering good customer outcomes and meeting business requirements. I would therefore focus on balancing **accuracy, productivity, SLA and risk controls**.
+>
+>  I'm also comfortable working with data and Excel, and I'm willing to learn the organisation's lending policies, systems and processes quickly.
+>
+>  Most importantly, I understand that a lending decision should be based on evidence and policy rather than assumptions. I would bring a consistent, responsible and detail-oriented approach to every application.
+
+ ## Quick interview formula to remember
+
+ For almost any lending question, keep these five principles in mind:
+
+ **Verify → Assess → Follow policy → Document → Escalate when required**
+
+ And for behavioural questions:
+
+ **Situation → Task → Action → Result**
+
+ That combination will help you answer most follow-up questions naturally rather than memorising dozens of separate answers.
+
+
+
+
+
+
+
 8**Important:** Do not memorize every word. Understand the structure and speak naturally.
 
 ---
