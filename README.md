@@ -1,1089 +1,347 @@
-Absolutely — below are **interview-ready answers** for a **Consumer Lending / Credit Assessment / Lending Operations** role. You can adapt the examples to match your actual experience.
 
- ## 1\. What is consumer lending?
+ ## 1\. OFAC
 
- Consumer lending is the process of providing credit to individuals for personal purposes, such as personal loans, vehicle loans, credit cards, or home loans.
+ **OFAC = Office of Foreign Assets Control**
 
- The lender assesses the applicant's **income, expenses, credit history, existing liabilities, employment, and overall ability to repay** before approving the loan. The objective is to lend responsibly while managing the lender's credit and fraud risk.
+ OFAC is a department within the **U.S. Department of the Treasury**.
+
+ ### What does OFAC do?
+
+ OFAC administers and enforces **U.S. economic sanctions** against countries, organizations, companies, and individuals that the U.S. has designated under various sanctions programs.
+
+ In simple words:
+
+ > **OFAC helps ensure that U.S. persons and businesses do not conduct prohibited transactions with sanctioned people, organizations, or countries.**
+
+ ### Example
+
+ Suppose a company is processing an international payment.
+
+ Before completing the payment, the company may check whether the people or organizations involved appear on a relevant U.S. sanctions list.
+
+ If the transaction involves a sanctioned person, the company may have to **block or reject the transaction**, depending on the applicable sanctions program and circumstances.
+
+ ### What is the OFAC SDN List?
+
+ One important OFAC list is the:
+
+ **SDN List = Specially Designated Nationals and Blocked Persons List**
+
+ It contains individuals and entities that are subject to certain blocking sanctions.
+
+ Financial institutions commonly screen:
+
+ - Customers
+- Beneficial owners
+- Businesses
+- Payments
+- Vendors
+- Other transaction parties
+
+ against applicable sanctions lists.
+
+ ### Important point
+
+ OFAC is primarily about **sanctions**, rather than being a general AML regulator.
+
+ Think:
+
+ **OFAC → Sanctions → Who are we prohibited from dealing with?**
 
 ---
 
- ## 2\. Explain the end-to-end consumer lending lifecycle.
+ # 2\. FATF
 
- The consumer lending lifecycle generally includes:
+ **FATF = Financial Action Task Force**
 
- 1. **Application** – The customer submits a loan application and supporting documents.
-2. **Document collection and verification** – Identity, income, employment, bank statements, and other required documents are checked.
-3. **Credit assessment** – The lender evaluates credit history, income, expenses, liabilities, and repayment capacity.
-4. **Fraud and compliance checks** – The application is screened for inconsistencies, fraud indicators, AML/KYC concerns, and policy requirements.
-5. **Affordability/serviceability assessment** – The lender determines whether the applicant can comfortably meet the proposed repayments.
-6. **Decisioning** – The application is approved, declined, or referred/escalated depending on the assessment and lending authority.
-7. **Documentation and settlement** – Final documents are completed and the loan is funded.
-8. **Post-settlement monitoring** – The lender monitors repayments, arrears, customer circumstances, and potential risks.
-9. **Loan closure** – Once the balance is fully repaid, the account is closed.
+ FATF is an **international organization** that develops global standards for fighting:
+
+ - Money laundering
+- Terrorist financing
+- Financing of proliferation of weapons of mass destruction
+
+ ### What does FATF do?
+
+ FATF creates recommendations and standards that countries use to develop their AML/CFT systems.
+
+ For example, FATF standards cover areas such as:
+
+ - Customer Due Diligence (CDD)
+- Beneficial ownership
+- Suspicious transaction reporting
+- Risk assessment
+- Sanctions
+- International cooperation
+- Financial institution supervision
+
+ ### Simple example
+
+ Imagine 200 countries each had completely different approaches to money laundering.
+
+ Criminals could exploit countries with weak controls.
+
+ FATF tries to create a **common international framework** so countries can strengthen their systems and cooperate with each other.
+
+ ### FATF Recommendations
+
+ FATF has a set of international standards commonly referred to as the **FATF Recommendations**.
+
+ They are often called the **"40 Recommendations."**
+
+ They provide a framework for countries to establish effective AML/CFT systems.
+
+ ### FATF does NOT normally work like a bank regulator
+
+ FATF generally doesn't investigate your individual bank account.
+
+ Instead, it evaluates how effectively **countries** implement AML/CFT standards.
+
+ Think:
+
+ **FATF → Global standards → How should countries fight financial crime?**
 
 ---
 
- ## 3\. What is credit assessment?
+ # 3\. CFT
 
- Credit assessment is the process of evaluating an applicant's **ability and willingness to repay a loan**.
+ **CFT = Combating the Financing of Terrorism**
 
- I would review information such as income, employment, expenses, existing debts, credit history, bank transactions, requested loan amount, and supporting documentation. I would then compare the information against the lender's **credit policy and responsible lending requirements** before making or recommending a decision.
+ CFT means measures designed to prevent people or organizations from providing or moving money or other financial resources for **terrorist activities or terrorist organizations**.
 
----
+ ### What is terrorist financing?
 
- ## 4\. What factors do you consider when assessing a borrower?
+ In simple terms:
 
- I would consider several areas:
+ > Terrorist financing involves providing, collecting, moving, or making available funds or other assets for terrorist activities or organizations, where prohibited by applicable law.
 
- - **Income** – Amount, source, stability, and frequency.
-- **Employment** – Length of employment and employment type.
-- **Existing liabilities** – Loans, credit cards, BNPL facilities, and other commitments.
-- **Living expenses** – Regular household and personal expenses.
-- **Credit history** – Repayment history, defaults, enquiries, and existing credit exposure.
-- **Loan purpose and amount** – Whether the requested facility is appropriate.
-- **Affordability/serviceability** – Whether the applicant can meet repayments.
-- **Assets and liabilities** – Overall financial position where relevant.
-- **Documentation quality** – Whether information is complete, consistent, and verifiable.
-- **Fraud/KYC indicators** – Any unusual or contradictory information.
+ ### AML vs CFT
 
- I would assess these factors together rather than relying on one factor in isolation.
+ This distinction is very important.
 
----
+ **AML** focuses primarily on preventing and detecting **money laundering**.
 
- ## 5\. What is affordability/serviceability?
+ Money laundering generally involves taking money connected to criminal activity and making it appear legitimate.
 
- Affordability or serviceability is the assessment of whether a customer has **sufficient income remaining after reasonable living expenses and existing financial commitments to meet the proposed loan repayment**.
+ **CFT** focuses on preventing money or assets from being used to support **terrorism or terrorist activity**.
+
+ ### A major difference
+
+ With money laundering, the money is often generated **illegally first**.
 
  For example:
 
- **Net income – living expenses – existing commitments – proposed loan repayment = remaining surplus**
+ > Drug trafficking → illegal proceeds → money laundering
 
- I would also consider the lender's policy requirements and any applicable assessment buffers rather than simply looking at whether the customer can make the repayment today.
+ With terrorist financing, the money can come from **legitimate or illegitimate sources**, depending on the circumstances.
 
----
+ For example:
 
- ## 6\. What is creditworthiness?
+ > Legitimate income/donation → funds diverted to terrorist activity
 
- Creditworthiness is an assessment of how likely a borrower is to **meet their financial obligations as agreed**.
+ Therefore:
 
- It can be assessed using factors such as:
+ **AML asks:**\
+ "Could this money be proceeds of crime?"
 
- - Credit history and repayment behaviour
-- Existing debt
-- Income and employment stability
-- Expenses
-- Previous defaults or adverse credit events
-- Current credit exposure
-- Overall financial position
+ **CFT asks:**\
+ "Could this money be supporting terrorism?"
 
- In simple terms, it answers the question: **"Does the available evidence indicate that this customer is able and likely to repay the credit responsibly?"**
+ ### CFT controls can include:
 
----
+ - Customer identification
+- Transaction monitoring
+- Sanctions screening
+- Suspicious transaction reporting
+- Beneficial ownership checks
+- Monitoring unusual transfers
+- Screening against relevant terrorist-designation lists
 
- ## 7\. What is Delegated Lending Authority (DLA)?
+ Think:
 
- Delegated Lending Authority, or DLA, is the level of **decision-making authority formally granted to an employee based on their role, experience, and organisational policy**.
-
- For example, an assessor may have authority to approve loans up to a particular amount or within specified risk parameters.
-
- DLA is important because it ensures decisions are made within clearly defined risk limits and creates appropriate controls around lending decisions.
+ **CFT → Prevent money/resources from reaching terrorist activities or organizations.**
 
 ---
 
- ## 8\. What would you do if an application falls outside your authority?
+ # 4\. BSA
 
- I would **not approve it outside my delegated authority**.
+ **BSA = Bank Secrecy Act**
 
- I would:
+ The Bank Secrecy Act is a major **U.S. federal law** concerning financial records and reporting designed to help government authorities detect and prevent financial crimes, including money laundering.
 
- 1. Complete the assessment within my role.
-2. Clearly document my findings and any relevant risks.
-3. Check the applicable lending policy.
-4. Escalate or refer the application to the appropriate person with the required authority.
-5. Ensure the handover contains all relevant information so the case does not need to be unnecessarily reassessed.
+ It was enacted in **1970** and has been amended by subsequent laws.
 
- I would never bypass an authority limit simply to meet an SLA.
+ ### What does the BSA require?
 
----
+ Among other things, covered financial institutions have obligations involving:
 
- ## 9\. How would you identify discrepancies in an applicant's documents?
+ - Recordkeeping
+- Reporting certain transactions
+- Customer identification and due diligence
+- Suspicious Activity Reports (SARs)
+- Currency Transaction Reports (CTRs)
+- AML programs
 
- I would compare information **across multiple sources rather than reviewing each document in isolation**.
+ ### Example: CTR
 
- For example, I would compare:
+ A **Currency Transaction Report (CTR)** is generally required for certain cash transactions **over $10,000 in a business day**.
 
- - Name and personal details
-- Employer information
-- Employment dates
-- Salary and pay frequency
-- Payslip net/gross income
-- Bank statement salary credits
-- Account balances and transaction patterns
-- Existing liabilities
-- Dates and document sequences
+ For example:
 
- I'd also look for unusual formatting, inconsistent fonts, altered numbers, missing pages, unexplained transactions, or information that doesn't logically match.
+ A customer deposits $15,000 in cash.
 
- If something doesn't make sense, I would investigate further rather than immediately assuming fraud.
+ The bank may have a CTR reporting obligation.
 
----
+ ### Example: SAR
 
- ## 10\. What would you do if income on a payslip doesn't match the bank statement?
+ A **Suspicious Activity Report (SAR)** is used by covered financial institutions to report potentially suspicious activity to the U.S. government.
 
- I would treat it as a discrepancy requiring clarification.
+ For example, suppose a customer's transactions appear structured to avoid reporting requirements.
 
- First, I would determine whether there is a legitimate explanation. For example, the payslip could show **gross income while the bank statement reflects net income**, or there could be deductions, salary packaging, or another legitimate adjustment.
+ The bank may investigate and, where the legal requirements are met, file a SAR.
 
- I would then check the relevant pay dates and transaction amounts and request additional evidence if required under policy.
+ ### Who administers BSA requirements?
 
- If the discrepancy remains unexplained or raises a potential fraud concern, I would **pause the assessment and escalate it through the appropriate process** rather than making an assumption.
+ The **Financial Crimes Enforcement Network (FinCEN)**, a bureau of the U.S. Treasury Department, plays a central role in administering and enforcing the BSA.
+
+ Think:
+
+ **BSA → U.S. law → Financial reporting and AML requirements**
 
 ---
 
- ## 11. How would you handle missing documentation?
+ # 5\. USA PATRIOT Act
 
- I would first check the application against the required document checklist and identify exactly what is missing.
+ **USA PATRIOT Act = Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism Act**
 
- I would then:
+ It was enacted in the United States in **2001**, following the September 11 terrorist attacks.
 
- - Determine whether the document is mandatory.
-- Request the missing information through the appropriate channel.
-- Clearly record what has been requested.
-- Follow up according to the applicable SLA/process.
-- Avoid making a final decision if the missing information is necessary to properly assess the application.
+ It covers many areas related to national security and law enforcement.
 
- My approach would be **"complete and verify before deciding"**, rather than trying to fill gaps with assumptions.
+ For AML/CFT, one particularly important part is **Title III**, which strengthened U.S. measures against money laundering and terrorist financing.
 
 ---
 
- ## 12\. How would you handle a potentially fraudulent/altered document?
+ ## What did the USA PATRIOT Act do for financial institutions?
 
- I would remain objective and avoid making an immediate accusation.
+ It strengthened requirements concerning areas such as:
 
- I would:
+ - Customer identification
+- AML programs
+- Correspondent banking
+- Foreign financial institutions
+- Suspicious financial activity
+- Information sharing
+- Terrorist financing
 
- 1. Identify and document the specific irregularities.
-2. Compare the document with other information available.
-3. Follow the organisation's fraud verification procedure.
-4. Request additional verification if appropriate.
-5. Escalate to the relevant fraud/risk/compliance team where required.
-6. Avoid approving or progressing the application contrary to policy.
+ ### Customer Identification Program (CIP)
 
- The key is to **protect the organisation and customer while following the correct process and maintaining confidentiality**.
+ One important concept is the **Customer Identification Program**.
 
----
+ Banks generally need procedures to obtain and verify information about customers when establishing accounts.
 
- ## 13\. What is responsible lending?
+ For example, a bank may collect information such as:
 
- Responsible lending means making credit decisions in a way that considers the **customer's financial circumstances and ability to repay**, rather than simply focusing on generating business.
+ - Name
+- Date of birth
+- Address
+- Identification number/document information
 
- It involves ensuring the credit is appropriate for the customer, verifying relevant information, assessing affordability, identifying potential risks, and complying with applicable laws and internal policies.
+ The purpose is to help the institution understand **who the customer actually is**.
 
- The goal is to avoid placing customers into credit arrangements that are unsuitable or likely to cause financial difficulty.
+ Think:
 
----
-
- ## 14\. How do you balance productivity, SLA and quality?
-
- I believe **quality and risk controls should not be sacrificed simply to meet an SLA**.
-
- My approach would be:
-
- - Understand the SLA and prioritise work accordingly.
-- Use a consistent assessment checklist.
-- Review documents systematically.
-- Identify issues early rather than discovering them at the end.
-- Use templates and Excel/system tools to improve efficiency.
-- Avoid unnecessary rework by getting the assessment right the first time.
-- Escalate genuine exceptions promptly.
-
- I aim for **accurate first-time processing**, because poor-quality work can create more delays than taking the appropriate time to assess a case correctly.
+ **USA PATRIOT Act → Strengthened U.S. AML/CFT framework, especially after 9/11.**
 
 ---
 
- # Behavioural Questions
+ # How are all five connected?
 
- For these questions, use the **STAR method: Situation → Task → Action → Result**.
+ This is the most important part to understand.
 
- ## 15\. Tell me about a time you identified a risk or discrepancy.
+ Imagine a bank receives an international transaction.
 
- **Sample answer:**
+ The bank may have to consider several different areas:
 
- > In a previous banking role, I was reviewing a customer profile and noticed that some of the information provided did not appear consistent with the transaction activity and supporting documentation.
->
->  My responsibility was to make sure the information was properly verified before the case progressed.
->
->  I compared the available documents and transaction information, identified the specific inconsistencies, documented my observations, and escalated the case through the appropriate process rather than making assumptions.
->
->  The case was subsequently reviewed, and the issue was addressed before the application/process could proceed. This experience reinforced the importance of attention to detail and not overlooking small inconsistencies.
+ ### Step 1 — Identify the customer
 
- **Tip:** Replace this with a real example from your banking/AML experience if you have one.
+ The bank needs to know who its customer is.
 
----
+ This relates to **KYC/CDD** and U.S. requirements including the BSA and USA PATRIOT Act.
 
- ## 16\. Tell me about a time you had to escalate a case.
+ ↓
 
- **Sample answer:**
+ ### Step 2 — Understand the customer's risk
 
- > In my previous banking/AML experience, I came across a case where the available information required further investigation and was outside the level of decision-making I could make independently.
->
->  Rather than making an assumption or proceeding without sufficient evidence, I reviewed the relevant information, documented the facts clearly, and escalated the case to the appropriate team.
->
->  I made sure the escalation included the reason for referral, the supporting information, and the specific issue that needed review.
->
->  This helped ensure the case was handled by the appropriate authority while maintaining both compliance and process quality.
+ The bank considers factors such as:
 
----
-
- # Technical Questions
-
- ## 17\. What Excel functions do you know?
-
- You can give a confident but honest answer such as:
-
- > I have experience with Excel functions including **SUM, AVERAGE, COUNT, COUNTIF, SUMIF, IF, AND, OR, XLOOKUP/VLOOKUP, INDEX-MATCH, IFERROR, LEFT, RIGHT, MID, LEN, TRIM, CONCAT, and date functions**.
->
->  I'm also comfortable with sorting, filtering, conditional formatting, data validation, pivot tables, and basic data analysis.
->
->  In a lending environment, I could use these functions to reconcile information, identify discrepancies, analyse application data, and improve reporting efficiency.
-
- If you haven't used a particular function professionally, don't claim that you have. You can say you're familiar with it or currently learning it.
-
----
-
- ## 18\. How does your previous banking/AML experience relate to this position?
-
- This is a strong opportunity to connect your previous experience to lending.
-
- > My banking and AML experience has given me a strong foundation in **document verification, customer due diligence, transaction analysis, risk identification, attention to detail, and following regulatory and internal procedures**.
->
->  Those skills are directly relevant to consumer lending because credit assessment also requires you to verify information, identify inconsistencies, assess risk, follow policy, and make decisions based on evidence.
->
->  My AML experience has also taught me not to ignore unusual information. If something doesn't make sense, I investigate it, document my findings, and escalate it through the appropriate channel.
->
->  I believe that combination of banking knowledge, risk awareness, analytical skills, and attention to detail would allow me to transition effectively into a consumer lending role.
-
----
-
- # 19\. Why should we hire you?
-
- Here's a strong answer that ties everything together:
-
- > I believe I would be a strong fit because I bring relevant banking and AML experience, strong attention to detail, and a risk-focused approach.
->
->  I'm comfortable reviewing information, identifying discrepancies, following procedures, and escalating issues when they fall outside my authority or require further investigation.
->
->  At the same time, I understand that lending is also about delivering good customer outcomes and meeting business requirements. I would therefore focus on balancing **accuracy, productivity, SLA and risk controls**.
->
->  I'm also comfortable working with data and Excel, and I'm willing to learn the organisation's lending policies, systems and processes quickly.
->
->  Most importantly, I understand that a lending decision should be based on evidence and policy rather than assumptions. I would bring a consistent, responsible and detail-oriented approach to every application.
-
- ## Quick interview formula to remember
-
- For almost any lending question, keep these five principles in mind:
-
- **Verify → Assess → Follow policy → Document → Escalate when required**
-
- And for behavioural questions:
-
- **Situation → Task → Action → Result**
-
- That combination will help you answer most follow-up questions naturally rather than memorising dozens of separate answers.
-
-
-
-
-
-
-
-8**Important:** Do not memorize every word. Understand the structure and speak naturally.
-
----
-
- ## SECTION 1: INTRODUCTION AND CAREER STORY
-
- ### 1\. Tell me about yourself.
-
- Hi, I'm Yatin Bahl. I have over three years of experience across financial operations, transaction monitoring, and payment investigations.
-
- Currently, I work with Concentrix as a Transaction Processing Advisor, where I perform L1 reviews of merchant accounts and fraud or risk alerts. My work involves reviewing account and transaction information, identifying inconsistencies, and deciding whether a case can be cleared or needs escalation.
-
- Before this, I worked with FIS Global as an Operations Analyst, where I handled payment and cheque transaction investigations, exception handling, and discrepancy analysis.
-
- Across these roles, I have developed a strong interest in payments risk and fraud, and I now want to grow further in this area.
-
- ### 2\. Walk me through your resume.
-
- I started my career in a customer operations and verification-related role, where I gained experience in customer interaction and identifying discrepancies.
-
- After that, I joined FIS Global as an Operations Analyst and worked on payment and cheque transaction investigations, exceptions, and discrepancy analysis.
-
- Currently, at Concentrix, I work in merchant monitoring and fraud/risk investigation.
-
- My career has gradually moved more toward investigation and risk-related work, and I now want to continue building my career in payments risk and fraud.
-
- ### 3\. Why do you want to join Airbnb?
-
- What interests me most is the nature of the role. It combines payment operations, fraud investigation, account analysis, and risk management.
-
- This aligns well with my experience in transaction monitoring and payment investigations.
-
- I also like that the role goes beyond simply processing alerts and involves understanding patterns, identifying risks, and contributing to improvements.
-
- ### 4\. Why are you leaving Concentrix after a short period?
-
- I understand why this can be a concern. Concentrix has given me valuable experience in merchant monitoring and risk investigations.
-
- However, this opportunity is closely aligned with the long-term career direction I want to build in payments risk and fraud.
-
- My decision is not because I am unhappy with my current organization; it is because this role is a strong match with the area in which I want to develop further.
-
- ### 5\. Why Payment Operations when you have an AML/Financial Crime background?
-
- There is a strong overlap between financial crime investigations and payment risk.
-
- Both require transaction analysis, identifying unusual behavior, investigating evidence, understanding risk, and making fact-based decisions.
-
- My experience in transaction monitoring has given me a strong investigative foundation, and payment risk allows me to apply those skills to fraud, payment behavior, and account patterns.
-
----
-
- ## SECTION 2: CONCENTRIX EXPERIENCE
-
- ### 6\. Explain your current role.
-
- I'm on an L1 team monitoring merchant accounts and fraud or risk alerts.
-
- I review account and transaction information, look for inconsistencies such as geographic or business-profile mismatches, and investigate the reason behind the alert.
-
- Based on the evidence and internal procedures, I decide whether the case can be cleared or should be escalated.
-
- Documentation and meeting SLA are also important parts of my role.
-
- ### 7\. Walk me through a complete investigation.
-
- First, I understand why the alert was generated.
-
- Then I review the account or merchant profile to understand what normal activity should look like.
-
- Next, I investigate the relevant information, such as account details, business information, location, transaction activity, or digital indicators.
-
- I look at both red flags and possible explanations.
-
- Finally, I document my findings and either clear or escalate the case based on the evidence and procedure.
-
- ### 8\. What does L1 monitoring mean?
-
- L1 monitoring is the first level of review.
-
- The analyst investigates the available information, performs the required checks, identifies possible risk indicators, and decides whether the case can be resolved or needs further review.
-
- ### 9\. How do you decide whether to clear or escalate a case?
-
- I look at the complete picture rather than relying on one red flag.
-
- I review the alert reason, account profile, available evidence, historical behavior where available, and whether inconsistencies can be reasonably explained.
-
- If concerns are resolved, I clear the case according to procedure.
-
- If important red flags remain unresolved, I escalate it.
-
- ### 10\. What red flags do you look for?
-
- Examples include:
-
- - Identity inconsistencies
-- Geographic mismatches
-- Unusual login activity
-- VPN indicators
-- Possible account takeover
-- Unusual transaction patterns
-- Activity inconsistent with the account profile
-- Suspicious linked information
-
- A red flag is not proof of fraud; it is a reason to investigate further.
-
----
-
- ## SECTION 3: FRAUD INVESTIGATION
-
- ### 11\. What is fraud?
-
- Fraud is intentional deception used to gain an unauthorized benefit.
-
- In payments, it can involve stolen payment details, identity theft, account takeover, unauthorized transactions, or abuse of systems and processes.
-
- ### 12\. What is Account Takeover (ATO)?
-
- Account Takeover happens when an unauthorized person gains access to and controls a legitimate user's account.
-
- Signs can include a new device or location, password or contact-detail changes, unusual payment activity, and behavior that does not match the customer's history.
-
- ### 13\. How would you investigate suspected ATO?
-
- First, I would understand the account's normal historical behavior.
-
- Then I would compare recent activity, including login behavior, device or location information, account changes, payment activity, and transaction patterns.
-
- I would look for a sequence of suspicious events.
-
- Based on the complete evidence, I would follow the appropriate process and escalate or take the required action.
-
- ### 14\. What is a geo-mismatch?
-
- A geo-mismatch occurs when different location data points do not match.
-
- For example, an account may be registered in one location while login activity or transactions show unexplained activity from another distant location.
-
- It is not automatic proof of fraud because travel or remote work may explain it.
-
- ### 15\. What is VPN usage and why can it be risky?
-
- A VPN can hide or change the apparent location of a user.
-
- VPN usage alone is not fraud, but it can make location verification difficult.
-
- It becomes more concerning when combined with account changes, identity mismatches, or unusual transactions.
-
- ### 16\. What is identity theft?
-
- Identity theft is the unauthorized use of another person's personal information to impersonate them or gain a benefit.
-
- ### 17\. Tell me about a suspicious case you investigated.
-
- One case involved a merchant account where I found multiple inconsistencies during the review.
-
- The merchant profile and expected business activity did not fully align with some account and transaction indicators.
-
- I reviewed geographic information, account activity, transaction patterns, and available digital indicators.
-
- Rather than relying on one red flag, I documented all the findings and escalated the case according to the process.
-
- The key learning for me was the importance of connecting multiple data points instead of making a decision based on a single indicator.
-
----
-
- ## SECTION 4: PAYMENT RISK
-
- ### 18\. What is Payment Risk?
-
- Payment risk refers to risks in payment activity that can cause financial loss, fraud, disputes, compliance issues, or operational problems.
-
- ### 19\. How is Payment Risk different from AML?
-
- AML mainly focuses on money laundering and related financial crimes.
-
- Payment risk focuses more on fraud, unauthorized transactions, account behavior, payment abuse, disputes, and financial loss.
-
- Both require transaction analysis and risk-based decisions.
-
- ### 20\. What types of payment fraud do you know?
-
- Examples include:
-
- - Account takeover
-- Stolen card fraud
-- Identity theft
-- Friendly fraud
-- Chargeback abuse
-- Synthetic identity fraud
-- Merchant fraud
-- Phishing-related fraud
-
- ### 21\. What is friendly fraud?
-
- Friendly fraud usually happens when a customer disputes a transaction even though they authorized it or received the benefit from it.
-
- ### 22\. What is the difference between fraud and unusual behavior?
-
- Unusual behavior means activity that is different from normal behavior.
-
- Fraud involves intentional unauthorized or deceptive activity.
-
- An unusual transaction may have a genuine explanation, so evidence must be reviewed before reaching a conclusion.
-
- ### 23\. What is a chargeback?
-
- A chargeback happens when a cardholder disputes a transaction with their bank or card issuer and asks for the payment to be reversed.
-
----
-
- ## SECTION 5: WORKLOAD AND QUALITY
-
- ### 24\. How do you manage a high volume of alerts?
-
- I first understand SLA and priority requirements.
-
- Then I organize cases based on urgency, risk, and aging.
-
- I maintain a consistent investigation process so quality does not drop when volume is high.
-
- ### 25\. How would you prioritize multiple queues?
-
- I would consider risk severity, SLA deadlines, financial exposure, potential fraud impact, and time sensitivity.
-
- I would also follow the team's defined prioritization process.
-
- ### 26\. How do you maintain quality under pressure?
-
- I use a consistent investigation process and avoid rushing into assumptions.
-
- I complete required checks, document findings clearly, and review key facts before making a decision.
-
----
-
- ## SECTION 6: ACCOUNT PATTERNS, DATA AND SQL
-
- ### 27\. How do you identify suspicious account patterns?
-
- First, I understand what normal behavior looks like.
-
- Then I look for unusual changes or relationships between data points, such as:
-
- - Multiple accounts sharing information
-- Sudden behavior changes
-- High transaction velocity
-- Repeated devices or locations
-- Unusual payment-method usage
-
- ### 28\. What would you do if you identified the same suspicious pattern across multiple accounts?
-
- I would validate that it is a real pattern, identify what the accounts have in common, document the findings, and escalate the trend because repeated activity may indicate organized fraud or a larger product issue.
-
- ### 29\. How would you analyze data to identify fraud trends?
-
- I would analyze data across:
-
- - Time
+ - Customer type
+- Business activity
 - Geography
-- Account age
-- Transaction amount
-- Payment method
-- Device indicators
-- Fraud outcomes
+- Products/services
+- Transaction behavior
 
- Then I would look for unusual concentrations or sudden changes.
+ ↓
 
- ### 30\. How can SQL help in a Payments Risk role?
+ ### Step 3 — Monitor transactions
 
- SQL can help analyze large amounts of account and transaction data.
+ The bank looks for unusual or potentially suspicious activity.
 
- It can identify unusual transaction velocity, repeated activity across linked accounts, sudden spikes in volume, fraud patterns by geography, or common characteristics among confirmed fraud cases.
+ This is strongly connected with **BSA/AML requirements**.
 
----
+ ↓
 
- ## SECTION 7: PRODUCT VULNERABILITIES
+ ### Step 4 — Check sanctions
 
- ### 31\. What is a product vulnerability?
+ The bank checks relevant sanctions information.
 
- A product vulnerability is a weakness in a feature or process that can potentially be exploited.
+ This is where **OFAC** becomes particularly important.
 
- ### 32\. How can an investigator identify a product loophole?
+ ↓
 
- By connecting multiple cases.
+ ### Step 5 — Consider terrorist financing
 
- If the same fraud pattern repeatedly appears around one feature or process, it may indicate a larger issue.
+ The institution considers whether activity could involve terrorist financing.
 
- I would gather examples, identify the common pattern, document the impact, and escalate it.
+ This relates to **CFT**.
 
- ### 33\. What would you do if you discovered a potential vulnerability?
+ ↓
 
- I would validate the observation with enough evidence, document what is happening and the possible impact, and escalate it through the appropriate process.
+ ### Step 6 — Follow international standards
 
----
-
- ## SECTION 8: INVESTIGATIVE JUDGMENT
-
- ### 34\. What does a fact-based investigation mean?
-
- It means making decisions based on evidence rather than assumptions.
-
- I should review both suspicious indicators and possible legitimate explanations.
-
- ### 35\. How do you avoid bias during an investigation?
-
- I focus on objective evidence and apply the same standards to every case.
-
- My decision should be based on account behavior, transaction evidence, verification results, and relevant risk indicators.
-
- ### 36\. What do you do when information is incomplete?
-
- First, I check whether more information is available through approved systems or sources.
-
- If important information is still missing, I do not make assumptions just to close the case.
-
- I request further information or escalate according to procedure.
-
- ### 37\. What would you do if you made an incorrect decision?
-
- I would acknowledge the mistake, follow the correct process to fix it, understand why it happened, and apply the learning to future cases.
+ The country's AML/CFT framework is influenced by international standards developed by **FATF**.
 
 ---
 
- ## SECTION 9: DOCUMENTATION
-
- ### 38\. How do you write a good investigation narrative?
-
- A good narrative should be clear, factual, structured, and supported by evidence.
-
- I cover:
-
- - Why the case was reviewed
-- What was checked
-- Key red flags
-- Mitigating factors
-- Final decision
-- Reason for the decision
-
- ### 39\. Why is documentation important?
-
- Documentation creates an audit trail and explains how a decision was made.
-
- It helps quality teams, future investigators, auditors, compliance teams, and management.
-
----
-
- ## SECTION 10: FIS GLOBAL EXPERIENCE
-
- ### 40\. Explain your role at FIS.
-
- At FIS, I worked as an Operations Analyst handling payment and cheque transaction-related activities.
-
- My work involved reviewing transactions, identifying discrepancies, verifying information, handling exceptions, and maintaining accurate records.
-
- ### 41\. What type of investigations did you perform at FIS?
-
- I reviewed payment and cheque-related transactions where there were exceptions, discrepancies, or information requiring verification.
-
- I reviewed transaction details, customer information, and available records to understand the issue and determine the correct resolution.
-
- ### 42\. What did you learn at FIS that will help you at Airbnb?
-
- Attention to detail, accuracy, working in high-volume operations, transaction investigation, documentation, and following procedures.
-
----
-
- ## SECTION 11: TOOLS
-
- ### 43\. What is LexisNexis used for?
-
- LexisNexis can provide information and risk intelligence that supports identity, address, business, or background-related checks depending on the product and access available.
-
- ### 44\. What is Ekata used for?
-
- Ekata is used for digital identity and risk-related verification.
-
- It can help assess whether information such as phone, email, location, or other digital signals is consistent and trustworthy.
-
- ### 45\. What is EmailAge used for?
-
- EmailAge provides risk-related intelligence about email addresses and can help identify potential risk indicators.
-
- ### 46\. How do you use multiple tools during an investigation?
-
- I do not rely on one tool to make a decision.
-
- I compare information from different sources, identify inconsistencies, and use the combined information to build a complete picture.
-
----
-
- ## SECTION 12: CUSTOMER EXPERIENCE AND CONFIDENTIALITY
-
- ### 47\. How do you balance fraud prevention and customer experience?
-
- The goal is not to block every potentially risky transaction because that can create unnecessary friction for genuine users.
-
- The right approach is proportionate risk assessment and evidence-based decision-making.
-
- ### 48\. What if your decision negatively affects a genuine customer?
-
- That is why accuracy and fairness are important.
-
- I would ensure the decision is based on evidence and procedure.
-
- If new information becomes available, I would remain open to reviewing the case objectively.
-
- ### 49\. How do you handle confidential information?
-
- I only access information required for my work, follow company policies, and do not discuss sensitive information outside authorized channels.
-
----
-
- ## SECTION 13: BEHAVIOURAL QUESTIONS
-
- ### 50\. Tell me about a time you worked under pressure.
-
- In operations and transaction monitoring, workload can increase while SLA expectations remain strict.
-
- I prioritize based on urgency and risk and follow a structured process while maintaining quality.
-
- ### 51\. Tell me about a time you received feedback.
-
- I see feedback as an opportunity to improve.
-
- I understand the reason behind the feedback and apply that learning to future cases.
-
- ### 52\. Tell me about a mistake you made.
-
- **Use a real example.**
-
- Structure it as:
-
- **Situation → What happened → How you corrected it → What you learned**
-
- A safe example is learning not to focus too heavily on one indicator and instead considering the complete context.
-
----
-
- ## SECTION 14: SCENARIOS
-
- ### 53\. A new account suddenly makes multiple high-value transactions. How would you investigate?
-
- I would review the account profile and age, transaction frequency, amount, timing, payment methods, login behavior, device, location, and account changes.
-
- I would look for multiple indicators before making a decision.
-
- ### 54\. A customer changes email, phone number, password, and payment method, followed by a high-value transaction.
-
- This could indicate possible Account Takeover.
-
- I would compare recent activity with historical behavior and review login, device, location, timing, account changes, and payment activity.
-
- ### 55\. You have suspicious indicators but no direct proof of fraud. What would you do?
-
- I would document the facts, identify red flags, consider mitigating factors, and decide whether the concerns can reasonably be resolved.
-
- If important concerns remain, I would escalate according to procedure.
-
- ### 56\. You identify the same suspicious behavior across 20 accounts.
-
- I would compare the accounts to identify common factors such as device, location, payment method, timing, or account age.
-
- I would document the pattern and escalate it because it may indicate organized fraud or a broader vulnerability.
-
- ### 57\. You have 50 cases and five are close to SLA. How do you prioritize?
-
- I would prioritize using a combination of SLA urgency and risk severity.
-
- If the workload becomes unmanageable, I would communicate proactively with my lead.
-
- ### 58\. A card is used in India and 30 minutes later in the US. How would you investigate?
-
- This could indicate possible impossible travel, so I would investigate it from an Account Takeover angle.
-
- I would check for legitimate explanations, including VPN usage or location-data issues.
-
- Then I would review recent login activity, devices, account changes, session activity, transaction history, and historical behavior.
-
- ### 59\. A genuine customer's payment is flagged as potentially fraudulent. How would you investigate?
-
- I would not assume fraud just because an alert was generated.
-
- I would review historical behavior, transaction amount, location, device information, payment method, recent account changes, and possible mitigating factors such as travel.
-
----
-
- ## SECTION 15: AML BASICS
-
- ### 60\. How do you identify money laundering indicators?
-
- I look for activity inconsistent with the expected profile, such as:
-
- - Structuring
-- Rapid movement of funds
-- Unexplained high-value activity
-- Unusual geographic exposure
-- Inconsistent account behavior
-
- These are indicators requiring investigation, not proof by themselves.
-
- ### 61\. What is structuring?
-
- Structuring is breaking a larger amount into smaller transactions, potentially to avoid reporting requirements or detection.
-
- ### 62\. What is Source of Funds?
-
- Source of Funds means where the money involved in a transaction came from, such as:
-
- - Salary
-- Business income
-- Loans
-- Investments
-- Asset sales
-
- ### 63\. What is KYC and KYB?
-
- **KYC** means Know Your Customer and focuses on verifying and understanding an individual customer.
-
- **KYB** means Know Your Business and focuses on verifying a business, ownership, nature of operations, and legitimacy.
-
- ### 64\. What experience do you have with SAR?
-
- My involvement is mainly at the investigation and escalation stage.
-
- I identify risk indicators, document findings, and escalate cases for further review.
-
- I do not independently file SARs unless specifically authorized.
-
----
-
- ## SECTION 16: RFI, LAW ENFORCEMENT REQUESTS AND LIENS
-
- ### 65\. What is an RFI?
-
- RFI stands for Request for Information.
-
- It is used when the available information is not enough to make a complete decision and additional information or clarification is required.
-
- ### 66\. Do you have RFI experience?
-
- I have not directly owned a formal RFI process, so I would not overstate my experience.
-
- However, I understand its purpose and the importance of obtaining sufficient information before making a decision.
-
- My investigation experience would help me learn the formal process quickly.
-
- ### 67\. What are Law Enforcement Requests?
-
- They are formal requests from authorized government or law enforcement agencies for information or records related to an account, person, transaction, or investigation.
-
- They must be handled through the correct legal and internal process.
-
- ### 68\. How would you handle a Law Enforcement Request?
-
- I would follow the company's established legal and operational process and would not independently share sensitive information.
-
- I would ensure the request is handled by the authorized team and maintain accuracy, confidentiality, and proper documentation.
-
- ### 69\. What is a lien?
-
- A lien is a legal claim or right against a person's or organization's property or assets, usually connected to an unpaid debt or legal obligation.
-
- ### 70\. Do you have experience with Liens?
-
- I have not directly worked on lien-related processes, so I would be transparent about that.
-
- However, I understand such cases involve legal and financial obligations and require careful handling, accuracy, confidentiality, and strict adherence to procedures.
-
----
-
- # FINAL RAPID REVISION
-
- ## Top Priorities
-
- Focus especially on these topics before the interview:
-
- - Introduction
-- Why Airbnb
-- Why leaving Concentrix
-- Current role
-- Complete investigation
-- Real case
-- Account Takeover (ATO)
-- Impossible travel
-- Payment Risk vs. AML
-- High-volume management
-- Suspicious patterns
-- SQL
-- Fact-based investigation
-- RFI
-- Liens
-
----
-
- # FINAL RULES
-
- > **Do not memorize word-for-word. Understand and speak naturally.**
-
- - Do not claim actions you did not personally perform.
-- Do not say you froze an account unless you had authority.
-- Do not claim SAR filing experience if you only investigated or escalated.
-- Use the following investigation structure:\
-   **Review evidence → Identify red flags → Consider mitigating factors → Document → Clear or escalate**
-- If you do not know a process, be honest and show that you can learn quickly.
-- Keep most answers between **30 and 60 seconds**.
-
- ## Strongest Positioning
-
- **Payment Operations + Transaction Monitoring + Fraud Investigation + Analytical Thinking**
-
----
-
- # QUICK INTERVIEW MINDSET
-
- When answering investigation questions, remember:
-
- **1\. Understand the alert**\
- Why was the case triggered?
-
- **2\. Understand the normal behavior**\
- What should this account or transaction normally look like?
-
- **3\. Review the evidence**\
- Look at account, transaction, device, location, payment, and behavioral information as applicable.
-
- **4\. Identify red flags**\
- Do not rely on one indicator alone.
-
- **5\. Consider mitigating factors**\
- Ask whether there is a legitimate explanation.
-
- **6\. Make a fact-based decision**\
- Clear when concerns are reasonably resolved; escalate when important concerns remain.
-
- **7\. Document clearly**\
- Record what you checked, what you found, and why you made the decision.
-
- > **Remember:** A red flag is a reason to investigate — not automatic proof of fraud.
-
- This is ready to save as **`README.md`**.
-
-
-
-
-PROFESSIONAL SUMMARY
-Financial crime and transaction monitoring professional with 2.9 years of First Line of Defense (1LoD) experience in AML, KYC/KYB, 
-transaction monitoring, and fraud investigations. Experienced in identifying money laundering and terrorist financing risks, conducting 
-customer due diligence (CDD/EDD), and resolving complex cases using a risk-based approach. Hands-on experience with tools such as 
-LexisNexis, Ekata, and EmailAge, along with a solid understanding of BSA/USA PATRIOT Act requirements and quality control 
-standards. Looking to contribute my analytical skills and compliance expertise in an AML, KYC, or Financial Crime Compliance Analyst 
-role.
-CORE COMPETENCIES
-AML Compliance • Money Laundering Prevention • Terrorist Financing (TF) Risk Identification • KYC / KYB • Customer Due Diligence 
-(CDD) • Ongoing Due Diligence (ODD) • Source of Funds (SOF) Verification • L1 Transaction Monitoring • Financial Crime 
-Investigation • Fraud Investigation • Risk Assessment • Suspicious Activity Identification • Structuring & Smurfing Indicators • Reporting 
-Threshold Monitoring • Geographic Risk Assessment • Business & Identity Verification • Case Investigation • Quality Control (QC) • 
-Risk-Based Decision Making • Regulatory Compliance (BSA / USA PATRIOT Act) • Case Documentation • SLA Adherence
-TECHNICAL SKILLS
-AML & Risk Tools: LexisNexis, Ekata, Email Age • Data Analysis: SQL (Intermediate), Microsoft Excel (Intermediate), Power BI 
-(Basic) • CRM: Salesforce CRM • Microsoft Office: Word, PowerPoint
-PROFESSIONAL EXPERIENCE
-Transaction Processing Advisor | Concentrix | Gurugram | May 2026 – Present
-• Conduct L1 monitoring on 25 daily alerts, achieving 99.8%–100% accuracy within SLA to achieve first Line of Defence. 
-• Identify red flags, money laundering, structuring, TF, and sanctioned countries at risk escalating to compliance teams. 
-• Verify source of funds (SOF), detecting ATO, geo-mismatch, VPN bypass, and identity theft risk. 
-• Perform KYC/KYB due diligence (CDD/ODD) using LexisNexis, Ekata, and Email Age, flagging business impersonation. 
-• Disposition alerts (clear, escalate) and document case narratives, supporting SAR determinations.
-Operations Analyst | FIS Global | Gurugram | Feb 2024 – Apr 2026
-• Reviewed 20–30 daily payment and cheque transactions, identifying anomalies and fraud indicators.
-• Conducted customer verification and payment investigations, resolving exceptions via documentation review.
-• Maintained audit-ready investigation records ensuring compliance with operational and quality standards.
-• Achieved 100% accuracy; trained new hires, earning Pinnacle Award in 2025.
-Customer Support Associate | Tech Mahindra | Noida | Aug 2023 – Jan 2024
-• Performed KYC identity verification, collecting government IDs (driver's license, passport, SSN) for verification checks. 
-• Identified discrepancies and fraud indicators during KYC checks, escalating flagged cases to internal teams for review.
-• Handled 30–40 daily KYC verification interactions, balancing accuracy with service-level response time expectations.
-AWARDS & RECOGNITION
-Pinnacle Award – Best Performance 2025 • FIS Global | R&R Award • FIS Global | R&R Award • Tech Mahindra
-EDUCATION
-Bachelor of Technology (Computer Science & Engineering) | PDM University, Haryana | 2019 – 2023
-LANGUAGES
-English (Fluent) • Hindi (Native)
-
-
-Transcription
-
-Of Yeah, sorry. Actually, I will. I want to say one thing that please prepare some topics, the main topics they have mentioned on JD. OK, you have to do one thing. You have to go through the JD. You have to paste that JD on chat GPT and you have to paste your CV on chat GPT. OK, and whatever questions chat GPT will share to you around 20 to 25 questions, you have to prepare it. Okay. Okay, I do have mentioned, you do already have mentioned and what's the same thing I pasted all those things in the charge, but you provided me around 70 versions and I can also share it with you so that you can have a reference of that. So if there is anything missing in that, you can highlight and I will prepare. 
-
-Yeah, actually, yesterday, yesterday there is a three open, it was four open, but one has closed. There is three open position still. So, yesterday one female has taken interview. Okay, we got the feedback. She has a good experience into that RFI, but I think AML questions also they are asking. Okay, so 80% questions, 70% questions related to your CV, 20% questions related to their JD and 10% other thing. Okay, but they want strong technical knowledge with good communication and good confidence. Okay, okay, I will prepare for that part. So you want that comment? Reason of rejection I received none that I will share on your WhatsApp so that that key pointers you have to pick up and you have to paste in chat GPT. Some questions also you will get. You have to pay for it. OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK, OK And reason of job change for you, I have shared on, I will share on WhatsApp also. That same reason you have to say whatever I have mentioned. Also, one more thing I want to add on that, I just want to know from my manager and I have said that the project is going to be end on October. So, there is going to be ramp down for this project. I don't know what I have written. I will share. I will check. Okay, wait, I'm sharing right now. Because we have to say same thing. Otherwise, it will. Otherwise, they will think that something is fishy. Yeah, I received I have mentioned something else. You have you can tell in your language. I have shared your reason of job change while uploading your CV and I have mentioned this reason that your main focusing on merchant account monitoring and he was he wants to get more exposure. Check your WhatsApp. I have shared on WhatsApp. Wait a minute. I have read all that part. Yes, I have mentioned this earlier. So is it, I mean, are you sure that your project is going to ramp down? Yes, in the October, in the end of October. So I can mention that part as well along with this, but I've just mentioned. Yeah, you can add it. You can add it. So that will support my verification for leaving the job. Okay. Fine. Okay. Is there anything else? So I have to prepare on that part. And I think if I will know this people yourself, that reason that keep on to say we'll share some key pointers if you don't have experience, but you have to take some knowledge. OK, for lean and if I don't say directly, I don't have experience. If they are asking whatever knowledge you have, you have to deliver it. OK. Bye. Thanks. Okay. Bye.
-
-
-
-
-What is a Lein and can a Lein  be applied after a transaction goes through? 
-
-What do you understand about RFI? 
-
-What do you understand about Sanctions? 
-
-What is the reason you want to move from your current role? 
-
-What are the specific details that you want to keep private and not share about a customer in an RFI request?
-
-Explain the flow of a transaction from the Customers bank to the Merchants bank? 
-
-What information can be asked by a merchant or law enforcement agency in an RFI request. Can you explain it by keeping the Airbnb process in mind?
-
-Can you tell me some of the payment processors you know or have worked with?
-
-
-RFI, Liens, AML, Fraud, AML and fraud terminology, why regularisation is required and some scenarios based questions
-
-
-What do you understand about RFI?
-“RFI stands for Request for Information. It is used when we need additional information or clarification to complete an investigation. For example, if a transaction or account activity looks unusual, we may ask for supporting information about the purpose of the transaction, the business activity, or the source of funds. I would follow the company's process and request only relevant information.”
-
-Remember: RFI = additional information + clarification + investigation
-
-2. What is a lien, and can a lien be applied after a transaction goes through?
-“A lien is a legal claim or hold over funds or assets because of a financial or legal obligation. Yes, depending on the legal order and the applicable process, a lien can affect funds even after a transaction has been processed. So, I would follow the applicable legal and internal process rather than assuming that a completed transaction cannot be affected.”
-
-Remember: Lien = legal claim/hold + funds/assets + legal process
-
-⚠️ Don't say a lien automatically reverses a transaction.
-
-3. What do you understand about sanctions?
-“Sanctions are restrictions imposed by governments or international bodies on certain individuals, organizations, countries, or activities. In financial services, companies screen customers and transactions against sanctions lists. If there is a potential match, I would follow the company's procedure and escalate it to the appropriate team for further review.”
-
-Remember: Restrictions → screening → potential match → escalation
-
-4. What is the reason you want to move from your current role?
-“My current role has given me good experience in transaction monitoring, merchant investigations, fraud indicators, and risk-based decision making. Now I want to move into a broader payment risk and financial crime role where I can work on more complex investigations and develop my career further. I believe this opportunity is a good fit for my experience and long-term career goals.”
-
-If they ask “Why are you leaving Concentrix?”, don't complain about salary, commute, management, or workload.
-
-Say:
-
-“I'm looking for a role with broader responsibilities and stronger long-term growth in payments risk and financial crime.”
-
-5. What specific details should you keep private and not share about a customer in an RFI request?
-“I would only share information that is relevant, authorized, and required for the specific request. I would not share unnecessary confidential information such as passwords, authentication credentials, security information, or unrelated customer data. I would always follow the company's privacy and data-sharing procedures.”
-
-Remember: Relevant + authorized + necessary + confidential
-
-If they challenge you with “What if law enforcement asks for it?”:
-
-“I would follow the authorized legal and internal process and provide information only within the valid scope of the request.”
-
-6. Explain the flow of a transaction from the customer's bank to the merchant's bank.
-Keep this simple. Don't try to impress them with unnecessary technical terms.
-
-“The customer initiates a payment using a card or another payment method. The payment is sent through the relevant payment processor or network for authorization. Once the payment is approved and processed, the funds go through the settlement process and are eventually transferred to the merchant's designated bank account, after applicable fees or holds.”
-
-Remember the flow:
-Customer → Payment method → Processor/Network → Merchant → Settlement → Merchant bank
-
-If they ask you to explain card payment specifically, we can go deeper tomorrow.
-
-7. What information can be asked by a merchant or law-enforcement agency in an RFI request, keeping Airbnb in mind?
-This is probably the most important recruiter question.
-
-“For a merchant or customer RFI, we may request information that helps us understand the transaction or account activity, such as the purpose of the transaction, supporting documents, business information, identity information, or source of funds, depending on the case.
-
-For a law-enforcement request, I would not independently decide what information to provide. I would follow the company's legal and internal process and provide only the information that is legally requested and within the authorized scope.”
-
-If they ask: "Give me examples."
-Say:
-
-“Depending on the request, it could include identity or account information, transaction details, payment information, reservation or activity information, or supporting records relevant to the investigation.”
-
-Remember:
-Customer/merchant RFI → clarify the activity
-Law enforcement → valid request + authorized process + appropriate scope
-
-8. Can you tell me some payment processors you know or have worked with?
-Be very careful here because you don't want to claim something you haven't actually done.
-
-“I have worked on the payment operations and merchant-monitoring side rather than directly working for a payment processor. Some payment companies and platforms I am familiar with are Stripe, Adyen, PayPal, Square, and Worldpay. I understand that payment processors help facilitate payment authorization, processing, and settlement.”
-
-If they ask:
-
-“Which one have you personally worked with?”
-
-Don't invent experience.
-
-Say:
-
-“My direct experience is primarily on the merchant transaction-monitoring and payment-operations side, rather than directly working for a payment processor.”
+ # Easy way to remember them
+
+ | Term | Full form | Main idea |
+| --- | --- | --- |
+| **OFAC** | Office of Foreign Assets Control | 🇺🇸 **Sanctions** |
+| **FATF** | Financial Action Task Force | 🌎 **Global AML/CFT standards** |
+| **CFT** | Combating the Financing of Terrorism | 🚫 **Stop terrorist financing** |
+| **BSA** | Bank Secrecy Act | 🇺🇸 **U.S. AML/reporting law** |
+| **USA PATRIOT Act** | Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism Act | 🇺🇸 **Strengthened AML/CFT and national-security measures** |
+
+## One-line memory trick
+
+ **OFAC = Sanctions**\
+ **FATF = Global standards**\
+ **CFT = Stop terrorist financing**\
+ **BSA = U.S. AML law/reporting**\
+ **PATRIOT Act = Strengthened U.S. AML/CFT framework**
+
+ ### A simple real-world example
+
+ Suppose **ABC Bank** in the U.S. has a customer who sends an international payment.
+
+ ABC Bank might:
+
+ **1\. Identify the customer** → KYC/CIP\
+ **2\. Understand the customer's risk** → CDD\
+ **3\. Monitor the transaction** → AML/BSA\
+ **4\. Check applicable sanctions** → OFAC\
+ **5\. Look for potential terrorist financing** → CFT\
+ **6\. File a SAR if legally required** → BSA\
+ **7\. Operate within the broader international AML/CFT framework** → FATF standards
+
+ So, these aren't five completely separate concepts. They are **different pieces of the broader financial-crime compliance system**.
