@@ -345,3 +345,8 @@
  **7\. Operate within the broader international AML/CFT framework** → FATF standards
 
  So, these aren't five completely separate concepts. They are **different pieces of the broader financial-crime compliance system**.
+
+
+ FATF 40 RECOMMENDATIONS 
+
+ https://www.linkedin.com/posts/muhammadshakil1_fatf-40-recommendations-at-a-glance-money-activity-7479101382428397568-E2kd
