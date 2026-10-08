@@ -1,3 +1,19 @@
+| Keyword | Definition | Market |
+|---|---|---|
+| **SAR** | Suspicious Activity Report filed when activity meets the applicable suspicious-activity reporting requirements. | US/UK, with different reporting systems |
+| **BSA/AML** | US framework of laws and controls designed to prevent and detect money laundering and related financial crime. | US |
+| **KYC** | Process of identifying and understanding a customer. | Both |
+| **CDD** | Ongoing process of understanding customer risk and activity. | Both |
+| **Structuring** | Breaking transactions into smaller amounts to avoid detection or reporting thresholds. | Primarily US terminology, concept applies broadly |
+| **Layering** | Moving funds through transactions or accounts to make their origin harder to trace. | Both |
+| **Source of Funds (SoF)** | Where the specific money involved in a transaction came from. | Both |
+| **Source of Wealth (SoW)** | How the customer accumulated their overall wealth. | Both |
+| **Red Flag** | An indicator that may suggest unusual or suspicious activity and requires investigation. | Both |
+| **Disposition** | The final documented outcome of an alert investigation. | Both |
+| **Funnel Account** | Account receiving funds from numerous locations and often consolidating or moving them elsewhere. | Strongly relevant to US AML |
+| **Money Mule** | Person/account used to receive, move, or transfer illicit funds on behalf of others. | Both |
+
+
 # Daily Transaction Monitoring — Lesson 2
 
 ## Alert Investigation: From “Red Flag” to Defensible Disposition
