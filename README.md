@@ -1,9 +1,5 @@
 # Break will start around 10:00 pm to 10:10 pm
 
-<align="center">
-  <img src="https://giphy.com" width="50" alt="Pixel Heart">
-</p>
-
 
 # US AML Transaction Monitoring Interview Preparation
 
