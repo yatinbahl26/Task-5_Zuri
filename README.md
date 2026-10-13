@@ -1,7 +1,10 @@
-# Break will start around 10:00 pm to 10:10 pm 
+# Break will start around 10:00 pm to 10:10 pm
+
+<align="center">
+  <img src="https://giphy.com" width="50" alt="Pixel Heart">
+</p>
 
 
-![Heart](https://giphy.com)
 # US AML Transaction Monitoring Interview Preparation
 
 Target roles: AML Analyst / Transaction Monitoring Analyst / Financial Crime Analyst
