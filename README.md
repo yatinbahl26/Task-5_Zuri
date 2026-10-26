@@ -1,4 +1,5 @@
-# Break 9:30 pm to 10:15 pm
+# 26 october
+break 9:30 pm to 10:00 pm
 
 # US AML Transaction Monitoring Interview Preparation
 
