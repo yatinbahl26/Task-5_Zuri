@@ -1,1637 +1,431 @@
-#2 November 
+How to use this resource book
+• Part I – Core AML and Transaction Monitoring: AML concepts, KYC/CDD/EDD, source of funds and wealth, monitoring
+lifecycle, red flags, sanctions, PEP, adverse media, regulations, financial markets, SAR/STR and the Client ABC assessment.
+• Part II – Resume-Based Interview Questions: questions about your current Concentrix role, daily case volumes, quality metrics,
+tools, payment networks, RFIs, prior FIS/Tech Mahindra experience, career transitions and resume claims.
+• Part III – Scenario Interview Playbook: practical customer, merchant, sanctions, payment, TBML, workload and behavioural
+scenarios, each with interviewer objective, answering approach and model answer.
+• Use INVESTIGATE for technical AML cases; STAR for behavioural examples; and PREP for opinion or knowledge questions.
+Important: This book consolidates the three previously prepared guides. Some core topics are revisited from different angles
+intentionally: a definition question, a resume-specific probe and a practical scenario test different interview skills.
+Universal answering frameworks
+INVESTIGATE – technical AML scenarios
+I – Identify the alert and trigger. N – Know the customer and expected activity. V – View transaction flows, values, frequency,
+counterparties and geography. E – Examine red flags and inconsistencies. S – Seek reliable evidence and supporting documents.
+T – Test the customer's explanation. I – Identify close / request information / escalate. GATE – Ground the decision in evidence and
+record it.
+STAR – behavioural and experience questions
+Situation: brief context. Task: your responsibility. Action: what you personally did (the longest part). Result: the actual outcome and
+learning. Use genuine examples and real metrics only.
+PREP – knowledge and opinion questions
+Point: answer directly. Reason: explain why. Example: provide a relevant example. Point: reinforce the conclusion.
+When facts are incomplete
+Say what is known, identify the specific missing fact, explain how you would obtain or verify it, and state that you would not close
+the alert until material gaps are resolved. Avoid guessing.Complete AML & Transaction Monitoring Interview Resource Book Page 2
+PART I – CORE AML AND TRANSACTION MONITORING
+GUIDE
+Fundamentals, 60 questions, Client ABC assessment, SAR narrative and financial markets.
+AML & TRANSACTION MONITORING
+INTERVIEW PREPARATION GUIDE
+Saxo Bank – Transaction Monitoring Analyst 60 interview questions and model answers • Practical investigations • Client ABC
+assessment • SAR narrative writing Prepared as a structured study guide based on the supplied job responsibilities, candidate
+requirements and sample assessment. Use the model answers as preparation frameworks. Adapt them to your actual experience
+and the applicable jurisdiction.
+How to use this guide
+This guide is designed for interview preparation for a Transaction Monitoring Analyst role. It combines AML fundamentals,
+investigation methodology, sanctions and screening, practical scenarios, financial markets knowledge, operational competencies
+and behavioural questions. Interview priority: Be able to explain why activity is unusual, what evidence you would seek, how you
+would assess a customer explanation, and why you would close or escalate an alert. Important distinction: An unusual transaction
+is not automatically suspicious. Escalation for further investigation is not the same as a final decision to file a SAR/STR.
+Section 1 – AML fundamentals
+Q1. What is Anti-Money Laundering (AML)?
+AML refers to the laws, regulations, policies and procedures used to prevent criminals from disguising illegally obtained funds as
+legitimate money. The three commonly described stages are placement (introducing illicit funds into the financial system), layering
+(moving funds through transactions to obscure their origin), and integration (making funds appear legitimate, for example through
+investments or purchases).
+Q2. What is Transaction Monitoring?
+Transaction Monitoring is the review of customer transactions to identify unusual or potentially suspicious activity. Systems
+generate alerts using rules, thresholds, customer profiles and behavioural patterns. Analysts review the alert, customer profile,
+transaction history, counterparties and geography; conduct research; document findings; and close or escalate in accordance with
+policy.
+Q3. What is the difference between an unusual transaction and a suspicious
+transaction? An unusual transaction differs from the customer's expected or historical behaviour. A suspicious transaction is one
+where the available facts create grounds for concern about possible money laundering, terrorist financing, fraud or another financial
+crime. An unusual transaction needs investigation; it is not automatically suspicious.
+Q4. What are the three stages of money laundering?
+Placement: introducing illicit proceeds into the financial system. Layering: moving funds through multiple transactions or accounts
+to disguise their origin. Integration: reintroducing funds into the economy so they appear legitimate.
+Q5. What is a risk-based approach (RBA)?
+A Risk-Based Approach means applying controls proportionate to the risks presented by the customer, product, transaction,
+geography and business relationship. Higher-risk relationships may require enhanced due diligence, more frequent reviews and
+closer monitoring. Risk ratings should be based on evidence, not assumptions.
+Q6. What is the difference between CDD and EDD?
+Customer Due Diligence (CDD) includes identifying and verifying customers, understanding the purpose of the relationship and
+assessing expected activity. Enhanced Due Diligence (EDD) involves additional measures for higher-risk relationships, such as
+deeper source-of-wealth and source-of-funds checks, additional documentation, beneficial ownership review and enhanced
+monitoring.
+Q7. What is the difference between Source of Funds and Source of Wealth?
+Source of Funds (SOF) explains where the money for a particular transaction or relationship originated, such as salary, a property
+sale or investment proceeds. Source of Wealth (SOW) explains how the customer accumulated their overall wealth, such as
+through long-term employment, business ownership, inheritance or investments.Complete AML & Transaction Monitoring Interview Resource Book Page 3
+Q8. What is a beneficial owner?
+A beneficial owner is the natural person who ultimately owns or controls a customer or legal entity, even when ownership is held
+through intermediaries or other companies. Identifying beneficial owners helps establish who ultimately controls and benefits from
+the funds.
+Q9. What is the difference between KYC and AML?
+KYC is a component of the broader AML framework. It focuses on identifying and verifying customers, understanding their
+background and assessing risk. AML also includes transaction monitoring, sanctions controls, suspicious activity reporting, record
+keeping and wider financial-crime prevention.
+Q10. What is a Suspicious Activity Report (SAR)?
+A SAR is a report submitted to the relevant Financial Intelligence Unit or competent authority when the applicable reporting
+threshold is met. It typically describes the subject, account, suspicious activity, relevant dates and amounts, counterparties,
+investigation performed and reasons for suspicion. Terminology and reporting thresholds vary by jurisdiction.
+Section 2 – Transaction monitoring investigation
+Q11. Explain your end-to-end transaction monitoring investigation process.
+First, understand the alert trigger, rule and relevant transactions. Second, review the customer profile, including occupation,
+income, residence, onboarding details and expected activity. Third, analyse incoming and outgoing transactions, frequency, values,
+counterparties and geographies. Fourth, identify red flags and compare activity with the customer's profile. Fifth, conduct internal
+checks and appropriate open-source research, screening and document review. Sixth, assess any customer explanation and
+supporting evidence. Finally, close, seek further information or escalate under policy, documenting a clear rationale.
+Q12. What red flags do you look for during transaction monitoring?
+Examples include activity inconsistent with declared income; sudden changes in behaviour; unexplained third-party funding; rapid
+movement of funds; complex or circular transfers; structuring; high-risk geographical exposure; transactions without an apparent
+economic purpose; inconsistent source of funds; potential sanctions links; and activity inconsistent with the customer's occupation
+or stated investment objectives. A red flag is an indicator for assessment, not proof of crime.
+Q13. How do you determine whether a transaction is consistent with a customer's
+profile? Compare actual activity with expected behaviour, including occupation, income, wealth, account purpose, historical activity,
+counterparties and geography. Investigate material differences by seeking a credible explanation and appropriate evidence.
+Consider legitimate events such as an asset sale, inheritance or investment settlement. Do not rely on transaction value alone.
+Q14. What would you do if the customer did not respond to an information request?
+Follow the approved process for follow-up and outstanding information. Record what was requested, when it was requested and
+any follow-up attempts. Assess the activity using the information available. If material concerns remain unresolved, escalate in line
+with policy. Non-response alone does not prove money laundering, but may be relevant to the overall assessment.
+Q15. What is structuring or smurfing?
+Structuring involves splitting transactions into smaller amounts to evade controls or reporting requirements. Smurfing involves using
+multiple people or accounts to conduct smaller transactions to conceal the true source or ownership of funds. Investigate aggregate
+values, timing, common counterparties and the overall pattern.
+Q16. What is a false positive?
+A false positive is an alert that, after appropriate investigation, is determined not to indicate suspicious activity. For example, a large
+transfer between verified accounts belonging to the same customer may be consistent with the customer's profile and supported by
+evidence. Closure still requires a documented rationale and compliance with procedure.
+Q17. What is the difference between alert closure and escalation?
+Close an alert when investigation establishes a reasonable explanation and no unresolved concern remains under policy. Escalate
+when material red flags remain unexplained, information is inconsistent or further review is required. Escalation does not
+automatically mean a SAR/STR must be filed; that decision follows the applicable internal and regulatory process.
+Q18. How would you investigate a large incoming international transfer?
+Review the sender's identity and relationship to the customer, origin country, amount, purpose, source of funds, account ownership,
+historical activity, counterparties and applicable sanctions or geographical risks. Obtain supporting documentation where
+appropriate and assess whether the transaction has a credible economic purpose consistent with the customer's profile.Complete AML & Transaction Monitoring Interview Resource Book Page 4
+Q19. What is the difference between velocity and volume monitoring?
+Velocity monitoring identifies unusual transaction frequency or rapid movement within a period, such as many transfers in a short
+time. Volume monitoring identifies unusually high transaction values or aggregate amounts, such as deposits far exceeding
+expected monthly activity.
+Q20. How would you investigate rapid movement of funds?
+Review the timeline of incoming and outgoing transactions, balances, counterparties, relationships, destinations, purposes and
+customer profile. Determine whether the account may be functioning as a pass-through account. Rapid movement can be a
+layering indicator, particularly when combined with unrelated parties and no clear economic purpose.
+Section 3 – Sanctions, PEP and adverse media
+Q21. What are financial sanctions?
+Financial sanctions are restrictive measures imposed by governments or international authorities against individuals, entities,
+organisations or countries. Measures may include asset freezes and prohibitions or restrictions on making funds or financial
+services available. Relevant regimes depend on the institution, transaction and applicable law.
+Q22. What is the OFAC SDN List?
+The Specially Designated Nationals and Blocked Persons List is maintained by the US Treasury's Office of Foreign Assets Control.
+It identifies persons and entities subject to specific US sanctions. Screening hits must be assessed using identifiers and applicable
+sanctions rules; a name similarity alone does not establish a true match.
+Q23. What would you do if a customer matched a sanctions screening alert?
+Review full name and aliases, date of birth, nationality, residence, addresses, identification numbers, associated entities and other
+available identifiers. Determine whether the hit is a false positive or potential true match. If a potential true match exists, follow
+sanctions escalation and transaction-handling procedures immediately. Do not release or process a potentially prohibited
+transaction without the required determination.
+Q24. What is a Politically Exposed Person (PEP)?
+A PEP is an individual who holds or has held a prominent public function and may present heightened bribery or corruption risk.
+Examples can include heads of state, ministers, legislators, senior officials, senior judges and senior military officers. PEP status is
+not evidence of wrongdoing, but generally requires risk-based enhanced due diligence.
+Q25. What is adverse media screening?
+Adverse media screening reviews credible public information for allegations or reporting concerning money laundering, fraud,
+corruption, terrorist financing, sanctions violations, tax evasion or other relevant misconduct. Verify identity, source reliability,
+recency, relevance and whether allegations are proven or unproven. Document the assessment objectively.
+Q26. What is Anti-Bribery and Corruption (ABC)?
+ABC controls are designed to prevent bribery, improper payments and abuse of authority. Bribery can involve offering, giving,
+receiving or soliciting something of value to improperly influence a decision. Relevant laws include the US Foreign Corrupt
+Practices Act and UK Bribery Act 2010. Unusual payments involving public officials, intermediaries or unexplained commissions
+may warrant investigation.
+Q27. What is the difference between a PEP and a sanctioned individual?
+PEP status relates to a prominent public function and associated risks, particularly bribery and corruption. Sanctions status arises
+from restrictive measures imposed under an applicable sanctions regime. A PEP is not automatically sanctioned, and a sanctioned
+person is not necessarily a PEP.
+Section 4 – Regulations and compliance
+Q28. What is FATF?
+The Financial Action Task Force is an intergovernmental body that develops international standards to combat money laundering,
+terrorist financing and proliferation financing. Its recommendations address risk-based controls, customer due diligence, beneficial
+ownership, suspicious transaction reporting and international cooperation.
+Q29. What is the difference between FATF grey-listed and black-listed jurisdictions?
+Jurisdictions under increased monitoring are commonly referred to as grey-listed. Jurisdictions subject to a FATF call for action are
+commonly referred to as black-listed. These designations inform risk assessment but do not automatically make every customer or
+transaction connected to a jurisdiction suspicious.Complete AML & Transaction Monitoring Interview Resource Book Page 5
+Q30. What AML regulations should a financial institution understand?
+Requirements depend on where the institution operates and the activity involved. Examples include the US Bank Secrecy Act, USA
+PATRIOT Act and FinCEN requirements; the UK's Money Laundering Regulations, Proceeds of Crime Act 2002 and Sanctions and
+Anti-Money Laundering Act 2018; and the EU AML framework. FATF Recommendations provide international standards. Analysts
+must follow applicable local law and internal policy.
+Q31. What is the difference between money laundering and terrorist financing?
+Money laundering disguises proceeds of crime to make them appear legitimate. Terrorist financing involves providing or collecting
+funds to support terrorist activity or organisations. Terrorist financing may involve funds from legitimate or illegitimate sources, so
+small transactions can still be relevant when other indicators exist.
+Q32. What is tipping off?
+Tipping off is disclosing information to a customer or unauthorised person about a suspicious activity report or investigation where
+such disclosure is prohibited. It may compromise an investigation. Employees must follow confidentiality requirements and internal
+procedures.
+Section 5 – Practical investigation scenarios
+Q33. A customer with a monthly salary of $5,000 receives $100,000 from an unrelated
+individual. What would you do? Treat the activity as unusual and investigate the sender, relationship, purpose, source of funds,
+supporting evidence and historical activity. Consider legitimate explanations such as a documented asset sale or inheritance. If the
+explanation is unsupported or material concerns remain, escalate.
+Q34. A customer receives money from multiple countries and transfers it to a single
+beneficiary. What are your concerns? This may indicate layering or pass-through activity. Review sender identities, countries,
+beneficiary relationship, frequency, aggregate values, economic purpose and whether the customer is acting for another person.
+Escalate if the pattern lacks a reasonable explanation.
+Q35. A customer receives $200,000 and withdraws almost the entire amount within 24
+hours. Is this suspicious? It may be unusual and warrants review, but the context matters. Investigate source and destination of
+funds, purpose, counterparties and profile. Rapid movement without a credible explanation can be a layering indicator. A
+documented investment settlement or other legitimate obligation may explain it.
+Q36. A customer is involved in frequent cryptocurrency-related transfers. What would
+you investigate? Review source of funds, exchange platforms, counterparties, available wallet information, transaction frequency
+and values, exposure to high-risk or unregulated services, sanctions links and consistency with the customer's profile. Apply
+relevant jurisdictional rules and internal policy.
+Q37. A customer receives funds from a high-risk jurisdiction. Would you automatically
+escalate? No. Geographical risk is a factor, not proof of suspicious activity. Assess the customer's connection to the jurisdiction,
+purpose, sender and beneficiary, source of funds, sanctions exposure, history and supporting evidence. Escalate when combined
+indicators or unresolved concerns justify it.
+Q38. A customer provides an explanation, but documents do not match the transaction
+amount. What would you do? Compare the documents with the transaction amount, date, sender and purpose. Seek clarification
+through approved channels if appropriate. If discrepancies remain unresolved or the explanation is unsupported, document the
+issue and escalate. Do not close solely because an explanation was provided.
+Q39. A customer has high transaction volume, but all transactions are below a
+monitoring threshold. What would you investigate? Assess whether transactions may be structured to avoid detection or reporting.
+Review aggregate values, timing, frequency, common counterparties, customer profile and economic rationale. Consider the
+complete pattern rather than each transaction in isolation.
+Q40. A customer receives a large inheritance and begins investing through your
+platform. What would you do? Assess inheritance as a potential source of funds and understand how it fits the customer's overall
+source of wealth. Depending on policy, review probate or inheritance documents and bank statements. If the source is credible,
+evidence supports the amount and activity fits the profile, closure may be appropriate with a clear rationale.Complete AML & Transaction Monitoring Interview Resource Book Page 6
+Section 6 – Client ABC: complete assessment
+Question: Review the customer profile and transactions below. Prepare a rationale for the USD 500,000 alert generated on 20
+February and decide whether to close or escalate. Customer profile: Age 40; Danish nationality; resident in China; employer stated
+as JPMC; annual post-tax salary USD 150,000; onboarded 5 January 2025; stated total deposits USD 1 million. Date Deposit
+Origin 10 Jan
+USD 200,000
+Not specified Date Deposit Origin 12 Jan
+USD 250,000
+Not specified 18 Jan
+USD 300,000
+Not specified 30 Jan
+USD 150,000
+Denmark 5 Feb
+USD 20,000
+Jersey 20 Feb
+USD 500,000
+Not specified Other activity: Trading commenced 15 February; withdrawals total USD 200,000; 12 trades in non-margin products;
+alert triggered by USD 500,000 incoming on 20 February. Calculation: Listed deposits total USD 1,420,000. This is USD 420,000
+higher than the stated total deposits of USD 1,000,000. Deposits are approximately 9.47 times the declared annual post-tax salary
+of USD 150,000. Deposits less reported withdrawals equal USD 1,220,000, but this is not necessarily the account balance because
+trading results, fees, timing and asset values are unknown. Key red flags and investigation points:
+• Deposits materially exceed declared annual income; investigate whether the customer has other legitimate wealth or income.
+• Reconcile the USD 420,000 difference between the stated total and listed deposits.
+• Establish the sender and source of funds for the USD 500,000 alert transaction.
+• Understand the Denmark and Jersey transfers, including sender identity, customer connection and economic purpose. Geography
+alone is not proof of suspicion.
+• Assess why trading began after the earlier deposits and whether the 12 non-margin trades are consistent with the customer's
+stated investment objectives.
+• Review the USD 200,000 withdrawals, their destinations and relationship to the customer.
+• Check relevant sanctions, PEP and adverse media information, using reliable identifiers and applicable procedures. Additional
+information to seek:
+• Bank statements showing the origin of deposits and ownership of sending accounts.
+• Details of senders, counterparties and the customer's relationship with them.
+• Source-of-funds evidence for the USD 500,000 deposit and overall source-of-wealth information.
+• Explanation and reconciliation of the USD 420,000 deposit discrepancy.
+• Evidence of asset sales, inheritance, investment proceeds or other stated legitimate sources, as relevant.
+• Investment objectives, expected account use and explanation of the timing of trading. Recommended disposition: ESCALATE
+FOR FURTHER INVESTIGATION. The information is insufficient to reasonably explain the account funding. The significant
+difference between declared income and deposits, the inconsistency in reported deposit totals and the unexplained USD 500,000
+incoming transaction warrant further investigation. The international transfers and subsequent trading activity should be assessed
+in context. The facts do not independently establish money laundering. A SAR/STR should be considered only if the investigation
+supports the applicable reporting threshold. Interview-ready rationale: “After reviewing Client ABC's profile and transaction activity, I
+would recommend escalating the alert for further investigation rather than closing it at this stage. The customer declared annual
+post-tax income of USD 150,000, while the listed deposits total USD 1.42 million, approximately 9.47 times annual income. I also
+identified a USD 420,000 discrepancy between the stated total deposits and the listed transactions. The USD 500,000 incoming
+transaction requires investigation into its source, sender and purpose. I would review the Denmark and Jersey transfers, reconcile
+the deposit discrepancy, assess the withdrawals and determine whether the trading activity is consistent with the customer's profile.
+I would seek appropriate bank statements and source-of-funds/source-of-wealth evidence. Until the discrepancies and funding are
+satisfactorily explained, I would escalate. Any SAR/STR decision would follow the applicable jurisdictional threshold and internalComplete AML & Transaction Monitoring Interview Resource Book Page 7
+process.”
+Section 7 – SAR narrative writing
+Q42. What information should be included in a SAR narrative?
+A SAR narrative should be factual, chronological, objective and supported by the investigation. Include subject and account details,
+relevant dates, suspicious transactions, amounts, counterparties, customer profile, red flags, research and enquiries performed,
+customer explanations and documents (if any), and why the activity remains suspicious. Follow the relevant authority's format and
+local reporting requirements.
+Q43. Write a sample SAR narrative for Client ABC.
+Subject: Suspicious account funding activity – Client ABC
+Customer information: Client ABC is a 40-year-old Danish national residing in China. The
+customer was onboarded
+on 5 January 2025 and declared employment with JPMC, with annual post-tax salary of USD 150,000. Period and activity: Between
+10 January and 20 February 2025, six deposits were listed: USD 200,000 on 10 January; USD 250,000 on 12 January; USD
+300,000 on 18 January; USD 150,000 on 30 January originating from Denmark; USD 20,000 on 5 February originating from Jersey;
+and USD 500,000 on 20 February. The latter transaction triggered the monitoring alert. Trading reportedly commenced on 15
+February, with 12 non-margin trades and total withdrawals of USD 200,000. Reason for concern: Listed deposits total USD 1.42
+million, approximately 9.47 times the declared annual post-tax salary. The customer profile records total deposits of USD 1 million,
+creating a USD 420,000 discrepancy. The source and purpose of the USD 500,000 incoming payment have not been established
+from the information provided.
+Investigation findings: The observed funding is materially higher than the declared
+employment income. The deposit
+discrepancy and international funding activity require reconciliation and explanation. Further information is needed to establish the
+source of funds, origin of payments and economic purpose of the activity.
+Conclusion: Based on the information currently available, the account funding remains
+unexplained. The
+income-to-deposit discrepancy, inconsistent deposit totals and unexplained USD 500,000 payment warrant escalation and
+consideration of SAR/STR reporting in accordance with applicable requirements. This is an illustrative draft, not a completed report
+based on verified evidence. Do not state that a customer was contacted, documents were unavailable or explanations were
+rejected unless those facts have actually been established.
+Section 8 – Financial markets and investment knowledge
+Q44. What are financial markets?
+Financial markets are systems or venues where individuals and institutions buy and sell financial instruments such as shares,
+bonds, currencies and derivatives. They support capital raising, investment and the transfer of financial risk.
+Q45. What are financial instruments?
+Financial instruments are contracts representing a financial asset for one party and a financial liability or equity instrument for
+another. Examples include equities, bonds, foreign exchange, commodities, futures, options, CFDs and ETFs.
+Q46. What is the difference between margin and non-margin trading?
+Margin trading uses borrowed funds or leverage to increase market exposure and can magnify gains and losses. Non-margin
+trading generally involves buying instruments using available funds without borrowing through margin. From an AML perspective,
+assess whether funding, trading and withdrawals fit the customer's profile and investment purpose.
+Q47. What is an ETF?
+An Exchange-Traded Fund is an investment fund holding a basket of assets, such as shares or bonds, that trades on an exchange.
+It can provide diversified exposure through a single investment.
+Q48. What is a CFD?
+A Contract for Difference is a derivative through which an investor speculates on price movements without owning the underlying
+asset. CFDs often involve leverage and carry higher risk. For AML purposes, assess funding, counterparties, rapid deposits and
+withdrawals, and consistency with the customer's profile.Complete AML & Transaction Monitoring Interview Resource Book Page 8
+Q49. Why is understanding financial instruments important for a Transaction Monitoring
+Analyst? It helps analysts distinguish legitimate investment-related activity, such as sale proceeds, dividends and settlements, from
+potentially suspicious behaviour. Product knowledge reduces the risk of misinterpreting normal investment activity.
+Section 9 – Productivity, quality and teamwork
+Q50. How do you maintain productivity while ensuring investigation quality?
+Prioritise cases by risk, urgency and service-level requirements. Use a structured checklist, maintain clear notes, avoid
+unnecessary repetition, use approved tools efficiently, and seek guidance on complex cases. Productivity should never come at the
+expense of required investigation steps.
+Q51. What would you do if you were unable to meet your daily productivity target?
+Identify the cause, such as complex cases, missing information or system issues. Prioritise pending work, communicate with the
+team leader when needed and seek help to resolve bottlenecks. Review your approach for efficiency while maintaining quality.
+Q52. How would you handle disagreement with a colleague regarding alert closure?
+Discuss the evidence objectively, refer to the customer profile, transaction data and procedures, and explain the concern. If
+disagreement remains, seek a team leader or quality review. The goal is a consistent, evidence-based and defensible decision.
+Q53. How can transaction monitoring processes be improved through automation?
+Automation can support data gathering, alert prioritisation, duplicate detection, data quality checks and investigation
+documentation. It should be appropriately governed and monitored; it supports rather than replaces analyst judgement and
+oversight.
+Q54. How do you ensure consistency when working with global counterparts?
+Follow standard procedures, document decisions clearly and communicate findings in a structured way. Account for local regulatory
+differences and use knowledge-sharing or case discussions to promote consistency.
+Section 10 – HR and behavioural questions
+Q55. Tell me about yourself.
+“I have experience in financial operations and transaction processing, which has helped me develop attention to detail, analytical
+thinking and the ability to work within established procedures while meeting productivity and quality expectations. I am interested in
+financial crime compliance because it combines financial analysis, investigation, risk assessment and regulatory controls. I am
+looking to apply my operational experience while developing deeper expertise in AML, sanctions, KYC and transaction monitoring.”
+Q56. Why do you want to work for Saxo Bank?
+“I am interested in Saxo Bank because of its position in financial services and investment markets. This role offers exposure to
+international customers, transactions and financial instruments. I am particularly interested in investigating customer behaviour,
+identifying unusual activity and making evidence-based risk decisions, while collaborating with global teams.”
+Q57. Why should we hire you?
+“I bring attention to detail, an analytical mindset and experience working in structured financial operations. I understand the
+importance of following procedures, maintaining accuracy and meeting productivity expectations. I am committed to developing my
+AML and financial crime knowledge and believe I can contribute to investigation quality and operational efficiency.”
+Q58. What are your strengths?
+“My strengths include attention to detail, analytical thinking, adaptability and problem-solving. I am comfortable reviewing
+information, identifying discrepancies and following established procedures. I am also a quick learner and can adapt to new
+systems and processes.”
+Q59. What is your weakness?
+“I have sometimes spent longer than necessary reviewing minor details because I wanted to ensure accuracy. I have been
+improving by prioritising tasks, using structured checklists and balancing investigation depth with productivity requirements.”
+Q60. Where do you see yourself in five years?
+“I would like to become an experienced financial crime compliance professional with strong expertise in transaction monitoring,
+AML investigations and regulatory requirements. I would also like to take on more responsibility, support complex investigations
+and contribute to quality reviews and team development.”Complete AML & Transaction Monitoring Interview Resource Book Page 9
+Section 11 – High-priority questions to practise
+• A customer receives $500,000 from an unrelated third party. How would you investigate?
+• How would you identify layering through transaction activity?
+• What is the difference between source of funds and source of wealth?
+• How would you investigate a customer receiving funds from multiple jurisdictions?
+• What would you do if declared income does not match account activity?
+• What are the red flags associated with a pass-through account?
+• How do you distinguish a false positive from a genuine suspicious alert?
+• What information belongs in an escalation note?
+• What would you do if a customer refuses to provide supporting documents?
+• How would you investigate a potential sanctions match?
+• What is the difference between PEP screening and sanctions screening?
+• What are the three stages of money laundering?
+• What is the FATF grey list?
+• What is the difference between AML and CFT?
+• How do you maintain productivity during complex investigations?
+• What risks are associated with third-party funding?
+• What is structuring?
+• What is adverse media?
+• What is tipping off?
+• How would you investigate trading activity inconsistent with a customer's profile?
+Section 12 – Practical answer framework
+Use this sequence for most transaction-monitoring scenarios: P – Profile: Understand age, nationality, residence, occupation,
+income, onboarding details and expected activity. T – Transactions: Review incoming and outgoing payments, amounts, frequency,
+counterparties and geographical exposure. R – Red flags: Identify inconsistencies, unexplained funding, unusual patterns,
+third-party transfers and other risk indicators. I – Investigation: Perform internal reviews, open-source research, screening and
+requests for supporting evidence where appropriate. C – Conclusion: Decide whether the alert can be closed, needs more
+information or should be escalated. D – Documentation: Record the investigation, evidence, rationale and decision clearly.
+Final interview checklist
+• Three stages of money laundering.
+• Transaction monitoring lifecycle.
+• CDD versus EDD.
+• Source of Funds versus Source of Wealth.
+• Risk-Based Approach.
+• SAR versus STR.
+• Structuring and smurfing.
+• PEP screening and OFAC SDN screening.
+• FATF recommendations and grey/black lists.
+• Adverse media and Anti-Bribery and Corruption.
+• Sanctions investigation and potential match handling.
+• Alert closure versus escalation.
+• SAR narrative preparation.
+• International transaction investigation.Complete AML & Transaction Monitoring Interview Resource Book Page 10
+• Financial instruments and trading activity.
+• Client ABC calculations and rationale.
+• Productivity and quality management.
+Final advice: Do not only memorise definitions. Practise explaining why a transaction is
+unusual, what further
+information you would seek, how you would assess the customer's explanation and why you would close or escalate. A strong
+analyst does not automatically escalate every large transaction or close every transaction supported by a customer explanation.
+Decisions should be evidence-based, risk-sensitive and well documented.Complete AML & Transaction Monitoring Interview Resource Book Page 11
+PART II – RESUME-BASED INTERVIEW QUESTIONS
+Questions tailored to the resume: current role, metrics, tools, payment networks and career history.
+RESUME-BASED
+AML & TRANSACTION MONITORING
+INTERVIEW QUESTIONS & MODEL ANSWERS
+Tailored to the uploaded resume | Concentrix • FIS Global • Tech Mahindra Includes experience-based questions, technical AML
+questions, tools and payment-network questions, investigation scenarios, behavioural questions and a resume credibility checklist.
+Use these answers as structures, not scripts. Keep every example truthful and be prepared to explain the actual case, process,
+evidence and outcome behind each resume claim. How interviewers are likely to assess this resume The strongest interview
+probes will test whether the candidate can explain the work behind the resume's measurable claims: 30–50 alerts/cases per day,
+95%+ quality, alert closure/escalation decisions, RFI handling, KYC checks, network rules and case narratives. Important: The
+model answers below are deliberately written as adaptable frameworks. Replace any generic wording with the exact workflow,
+tools, authority limits and examples from your real experience. Do not claim to file SARs, make final sanctions decisions or
+independently approve cases unless that is genuinely part of your role.
+Part 1 – Questions directly based on your professional experience
+1. Walk me through your current role as a Transaction Monitoring Analyst at Concentrix. “In my current role, I review transaction
+monitoring alerts and cases, assess customer or merchant information, identify unusual activity and document the rationale for
+closure or escalation. My resume states that I handle approximately 30–50 alerts or cases daily while maintaining 95%+ quality. I
+also use research and screening tools such as LexisNexis and EmailAge, raise RFIs where information is needed, and prepare
+clear case narratives for quality review.” Be ready to clarify what “alert” and “case” mean in your team's workflow.
+2. What types of alerts do you investigate? Explain only the alert categories you actually handle. A good structure is: “The alerts I
+review are generated based on defined rules or risk indicators. I assess the trigger, customer or merchant profile, transaction
+details, historical activity, counterparties and available supporting information. I then determine whether the activity is explainable,
+needs more information or meets the criteria for escalation.” Give two real examples without disclosing confidential customer
+information.
 
-brk till 8:45
-
-# US AML Transaction Monitoring Interview Preparation
-
-Target roles: AML Analyst / Transaction Monitoring Analyst / Financial Crime Analyst
-
-Target companies: AML RightSource, American Express, and Genpact
-
-Your friend has 5 months of experience as a Transaction Processing Advisor 2, so the best strategy is to start with straightforward transaction-monitoring scenarios, build investigation skills, and then progress to complex US financial-crime cases.
-
-The goal is to prepare her for interviews next month, November 2026, with practical scenarios she can explain confidently—not just definitions to memorize.
-
-## 1. What she needs to master
-
-The scenarios will focus on the US financial system, including US dollars, US bank accounts, ACH transfers, domestic and international wire transfers, debit and credit card transactions, US sanctions, and suspicious activity reporting.
-
-Level 1 — Beginner
-
-Days 1–4 · Basic red flags, unusual deposits, customer profiles, and transaction reviews.
-
-Level 2 — Intermediate
-
-Days 5–9 · Structuring, rapid movement of funds, ACH activity, wire transfers, and alert investigations.
-
-Level 3 — Advanced
-
-Days 10–14 · Sanctions screening, money mules, business-account abuse, and linked transactions.
-
-Level 4 — Interview simulation
-
-Days 15–20 · Multi-layer investigations, competing priorities, documentation, and difficult follow-up questions.
-
-A key principle throughout: an unusual transaction is not automatically money laundering. She must explain what triggered the alert, what she would investigate, what evidence she would document, and whether she would close or escalate the case according to policy.
-
-## 2. The answer framework she should use in every interview
-
-Teach her this six-step method. It will help her answer unfamiliar scenarios without panicking.
-
-1.
-
---
-
-Identify the alert
-
-What exactly triggered the transaction-monitoring alert?
-
-2.
-
---
-
-Understand the customer
-
-Review KYC information, occupation or business, expected activity, account history, and risk rating.
-
-3.
-
---
-
-Analyze the transactions
-
-Examine amounts, frequency, counterparties, transaction channels, timing, and movement of funds.
-
-4.
-
---
-
-Look for an explanation
-
-Check whether the activity matches the customer's known profile and whether supporting information explains it.
-
-5.
-
---
-
-Reach a decision
-
-Close as explainable, continue investigation, or escalate as suspicious under the institution's procedures.
-
-6.
-
---
-
-Document the findings
-
-Record facts, red flags, explanations, evidence reviewed, rationale, and the next action.
-
-This approach aligns with the US banking industry's risk-based alert management and suspicious activity review process.
-
-![](https://www.google.com/s2/favicons?domain=https://bsaaml.ffiec.gov\&sz=32)
-
-Suspicious Activity Reporting
-
-+1
-
-## 3. Beginner scenarios — Level 1
-
-These first four cases are designed for someone with limited direct AML experience. The amounts and customer details are fictional interview exercises.
-
-Scenario 1 · Easy
-
-Unusual cash deposits
-
-A 28-year-old customer has a personal checking account with a US bank. The customer's normal monthly deposits are around $3,000, primarily from payroll. Over three days, the customer deposits $2,000, $2,500, and $2,800 in cash. The total is $7,300.
-
-Interview question: What would you investigate, and would you immediately classify this activity as money laundering?
-
-Model answer
-
-I would compare the cash deposits with the customer's KYC profile, occupation, expected account activity, and previous transactions. I would examine the deposit locations, timing, frequency, and any subsequent withdrawals or transfers. Since the account normally receives payroll, repeated cash deposits may be inconsistent with the customer's established pattern. However, the activity alone does not prove money laundering. I would document the findings and escalate if the activity remains unexplained under the bank's procedures.
-
-What she demonstrates: Profile analysis, red-flag identification, and avoiding premature conclusions.
-
-Scenario 2 · Easy
-
-Large incoming wire transfer
-
-A US customer whose account normally receives $2,500 in monthly payroll receives a $19,500 domestic wire transfer from an unrelated individual. Within 24 hours, the customer transfers $18,000 to another bank account.
-
-Interview question: What are the potential red flags, and what steps would you take?
-
-Model answer
-
-The main red flags are a significant deviation from the customer's normal activity, an incoming transfer from an unrelated party, and rapid movement of most of the funds. I would review the sender and beneficiary details, transaction history, stated purpose, account relationships, and any available supporting documentation. I would check whether the activity fits the customer's known profile. If no reasonable explanation is established, I would escalate the alert and document the rationale.
-
-What she demonstrates: Understanding rapid movement of funds and transaction context.
-
-Scenario 3 · Easy
-
-Multiple payments from different people
-
-A personal account receives 14 ACH credits from different individuals over five days. The total is $9,200. The account holder then sends almost all the funds to one external account. The customer profile does not indicate that the account is used for business.
-
-Interview question: How would you determine whether this is suspicious?
-
-Model answer
-
-I would investigate the number and origin of the ACH credits, the relationship between the senders and the account holder, the payment descriptions, the timing of the transactions, and the destination of the outgoing transfer. Receiving money from multiple unrelated individuals and consolidating it into one outgoing transfer could indicate pass-through activity or possible money-mule behavior. I would look for legitimate explanations, such as shared expenses or a documented collection purpose, and escalate if the activity remains inconsistent with the customer's profile.
-
-What she demonstrates: Understanding ACH transactions, aggregation, and possible pass-through activity.
-
-Scenario 4 · Easy
-
-Legitimate or suspicious business activity?
-
-A US restaurant deposits between $8,000 and $12,000 in cash on most business days. Its profile indicates that it is a busy restaurant. The deposits are followed by ordinary payments to food suppliers, employees, and the landlord.
-
-Interview question: Would you escalate the account simply because it handles large amounts of cash?
-
-Model answer
-
-Not necessarily. Cash deposits can be normal for a restaurant. I would compare the amounts and frequency with the restaurant's expected business volume, historical deposits, known operating model, and outgoing expenses. If the deposits are consistent with its business profile and the funds are used for ordinary operating expenses, that may support a reasonable explanation. I would investigate unexplained increases, inconsistent activity, unusual counterparties, or other red flags before making a decision.
-
-What she demonstrates: Risk-based judgment rather than treating every large transaction as suspicious.
-
-## 4. Intermediate scenarios — Level 2
-
-These cases test whether she can recognize patterns across several transactions rather than reviewing a single payment in isolation.
-
-Scenario 5 · Moderate
-
-Possible cash structuring
-
-A customer makes cash deposits of $9,400, $9,700, and $9,600 at different branches over four days. The deposits total $28,700. The customer's profile does not explain the source of this cash.
-
-Interview question: What is structuring, and how would you investigate this pattern?
-
-Model answer
-
-Structuring involves breaking transactions into smaller amounts with the intent to evade applicable reporting requirements. Repeated deposits below $10,000 can be a red flag, especially when the amounts, frequency, and locations suggest deliberate avoidance. I would review the customer's transaction history, other related cash activity, deposit locations, source of funds, and any available explanation. I would escalate the pattern if warranted and follow the institution's procedures for potential structuring.
-
-I would not assume that every deposit below $10,000 is structuring. The intent and surrounding facts matter.
-
-US-specific point: The $10,000 Currency Transaction Report threshold concerns reportable cash transactions; it is not a safe limit below which activity is automatically acceptable.
-
-![](https://www.google.com/s2/favicons?domain=https://ncua.gov\&sz=32)
-
-NCUA
-
-+1
-
-Scenario 6 · Moderate
-
-Rapid movement of funds
-
-A newly opened US checking account receives $42,000 through incoming domestic wires from three unrelated individuals. Within two days, $39,000 is sent through international wires to two overseas beneficiaries. The account holder is employed as an administrative assistant.
-
-Interview question: Identify the red flags and explain your investigation.
-
-Model answer
-
-The red flags include substantial activity shortly after account opening, multiple unrelated senders, rapid international transfers, and potential inconsistency with the customer's occupation and expected financial activity. I would examine the origin and destination of the funds, transaction purpose, sender-beneficiary relationships, prior account activity, and any available supporting information. I would also assess whether the account appears to be used as a pass-through account. If the activity cannot be reasonably explained, I would escalate it for further review.
-
-What she demonstrates: Source-and-use-of-funds analysis and cross-border transaction review.
-
-Scenario 7 · Moderate
-
-ACH credits followed by cash withdrawals
-
-A customer's account receives recurring ACH credits from an unfamiliar company. On the same day or the following morning, the customer withdraws most of the funds in cash. The pattern occurs six times in one month.
-
-Interview question: What might this indicate, and what evidence would you review?
-
-Model answer
-
-This pattern could indicate pass-through activity, possible money-mule behavior, or an attempt to obscure the destination of funds. I would identify the originator of the ACH credits, review payment descriptions and reversals, examine the timing and size of withdrawals, and compare the pattern with the customer's expected activity. I would check for related accounts or previous alerts where permitted. I would document the pattern and escalate if the transactions remain unexplained.
-
-What she demonstrates: Recognizing recurring patterns and understanding how different payment channels can connect.
-
-Scenario 8 · Moderate
-
-Unusual credit card payment activity
-
-A US credit card customer typically pays $500–$1,000 per month. Suddenly, the customer makes three payments totaling $18,000 from different bank accounts over five days. The card balance is only $2,000, and the customer requests a refund of the excess payment to a different bank account.
-
-Interview question: What concerns would you raise, particularly in a credit card environment?
-
-Model answer
-
-I would investigate the unusual payment volume, the use of multiple funding accounts, the significant overpayment, and the request to return funds to a different account. These may indicate potential third-party funding, fraud proceeds, or misuse of the credit card payment and refund process. I would review payment sources, account ownership information, previous payment behavior, refund instructions, and the customer's profile. I would coordinate with the relevant fraud or AML team and follow established controls before any decision on the refund.
-
-What she demonstrates: A scenario particularly relevant to card issuers and payments operations, including American Express-type environments.
-
-## 5. Advanced scenarios — Level 3
-
-These cases require a stronger understanding of linked accounts, sanctions screening, business activity, and the difference between a suspicious-activity alert and a sanctions hit.
-
-Scenario 9 · Advanced
-
-Potential money mule network
-
-Five personal accounts receive dozens of ACH credits from unrelated individuals across the United States. Each account transfers approximately 90% of its incoming funds to the same two beneficiaries. The account holders have different occupations but very similar transaction patterns.
-
-Interview question: How would you investigate the accounts collectively?
-
-Model answer
-
-I would examine the accounts as a potentially connected pattern, rather than treating each alert independently. I would compare common beneficiaries, transaction timing, payment descriptions, account-opening information, and the flow of funds. The consistent transfer of most incoming funds to common beneficiaries may indicate coordinated pass-through activity or a potential money-mule network. I would document the links and escalate through the appropriate investigation process. Any decision to file a SAR would be made by the authorized team under applicable procedures.
-
-What she demonstrates: Network analysis, linked-entity investigation, and risk-based escalation.
-
-Scenario 10 · Advanced
-
-Potential OFAC sanctions match
-
-A US bank's wire-screening system flags an outgoing $75,000 wire because the beneficiary's name resembles a name on the US Treasury's Office of Foreign Assets Control (OFAC) sanctions list. The names are similar, but the dates of birth and addresses are not yet available for comparison.
-
-Interview question: Should you clear the alert, reject the transaction, or escalate it?
-
-Model answer
-
-I would not clear the alert based on the name alone, and I would not independently conclude that the customer is sanctioned. I would follow the bank's sanctions-screening procedures, review available identifiers such as full name, date of birth, address, nationality, and other relevant details, and escalate the potential match to the sanctions compliance team. The authorized team would determine whether the match is genuine and what action is required. I would ensure the transaction is handled according to the applicable controls and would not release it without the required clearance.
-
-Important distinction: OFAC sanctions screening is not the same as ordinary AML transaction monitoring. A potential match needs appropriate resolution under sanctions procedures.
-
-![](https://www.google.com/s2/favicons?domain=https://ofac.treasury.gov\&sz=32)
-
-Office of Foreign Assets Control
-
-+1
-
-Scenario 11 · Advanced
-
-Business activity inconsistent with its profile
-
-A US company registered as a local wholesale clothing business receives $240,000 in incoming wires from unrelated overseas companies over two weeks. It then transfers nearly the same amount to unrelated businesses in several other countries. Its historical monthly turnover is approximately $35,000.
-
-Interview question: What red flags would you investigate before reaching a conclusion?
-
-Model answer
-
-I would identify the significant deviation from historical turnover, the number and locations of counterparties, the short interval between incoming and outgoing funds, and whether the transactions have a clear commercial purpose. I would review the business's KYC and expected activity, available invoices or contracts, counterparties, payment references, and historical account patterns. I would assess whether the company is acting as a legitimate intermediary or whether its account is being used to move funds without an apparent economic purpose. Unresolved concerns would be escalated with a clear explanation of the evidence.
-
-What she demonstrates: Business-account analysis, geographic risk assessment, and commercial-purpose review.
-
-Scenario 12 · Advanced
-
-Possible layering through multiple accounts
-
-A customer receives $120,000 from several domestic accounts. The money is transferred to three other accounts, consolidated again, and then sent to an overseas beneficiary. The transaction descriptions refer to consulting services, but the customer has no known consulting business. Similar transfers occurred twice during the previous month.
-
-Interview question: Explain how you would investigate potential layering.
-
-Model answer
-
-Layering refers to moving funds through multiple transactions or accounts to make their origin or ownership harder to trace. I would reconstruct the transaction flow, identify the originating and receiving accounts, examine the timing and amounts, and review the purpose and supporting documentation for the consulting payments. I would look for circular transfers, common counterparties, rapid movement of funds, and discrepancies between the customer's profile and stated activity. I would summarize the flow of funds and the unexplained indicators in my case notes, then escalate the case if the concerns remain unresolved.
-
-What she demonstrates: End-to-end transaction tracing and structured investigation writing.
-
-## 6. Expert scenarios — Level 4
-
-These are designed to test judgment under pressure. The interviewer may give incomplete information and challenge her initial conclusion.
-
-Scenario 13 · Expert
-
-A transaction is explained, but the pattern is not
-
-A customer explains that a $30,000 wire transfer represents payment for a used vehicle. An invoice is provided, but the customer's account has also received multiple unrelated deposits and sent several transfers to unrelated parties over the last 60 days.
-
-Interview question: Would you close the alert because the customer provided an invoice?
-
-Model answer
-
-No, not solely because an invoice was provided. I would verify whether the invoice reasonably supports the specific transaction and then review the broader account activity. I would examine whether the deposits and transfers are consistent with the customer's profile and whether there is a reasonable relationship between the counterparties. A legitimate explanation for one transaction does not automatically explain unrelated activity. I would document the evidence and escalate any remaining concerns.
-
-Scenario 14 · Expert
-
-An alert close to a reporting threshold
-
-An account receives cash deposits of $9,900 on Monday, $9,800 on Tuesday, and $9,700 on Wednesday. A colleague says, "All deposits are below $10,000, so we can close the alert."
-
-Interview question: How would you respond?
-
-Model answer
-
-I would explain that a transaction amount below a reporting threshold does not automatically make the activity legitimate. I would assess whether the repeated deposits suggest possible structuring, review the customer's normal activity, and investigate the source and purpose of the cash. I would follow the institution's procedures for escalation and any applicable reporting requirements. I would not dismiss the alert based on the transaction amounts alone.
-
-US compliance note: Structuring can involve transactions below, at, or across the reporting threshold when the required evasive intent exists.
-
-![](https://www.google.com/s2/favicons?domain=https://ncua.gov\&sz=32)
-
-NCUA
-
-+1
-
-Scenario 15 · Expert
-
-High alert volumes and a strict SLA
-
-You have 18 transaction-monitoring alerts to review before the end of your shift. Two involve potentially sanctioned parties, four involve rapid movement of funds, and the remaining alerts concern lower-risk activity. Your team leader asks you to improve productivity.
-
-Interview question: How would you manage the queue without compromising compliance?
-
-Model answer
-
-I would follow the organization's documented risk-ranking and escalation procedures, giving immediate attention to potential sanctions matches and other urgent, high-risk alerts according to their applicable deadlines. I would review lower-risk cases in an organized sequence, maintain accurate case notes, and communicate early if the workload creates a risk of missing an SLA. I would never skip required checks or close alerts without sufficient evidence merely to meet productivity targets.
-
-What she demonstrates: Risk-based prioritization, operational discipline, and time management.
-
-Scenario 16 · Expert
-
-A previous alert was closed, but activity continues
-
-A customer was previously investigated for unusual incoming wires. The alert was closed because the available evidence was inconclusive. One month later, the customer receives similar transfers, followed by rapid international payments. The transaction amounts are slightly different from the previous pattern.
-
-Interview question: What would you do with the new alert?
-
-Model answer
-
-I would conduct a fresh review while considering the previous alert and its documented findings. I would compare the transaction patterns, counterparties, timing, and explanations previously obtained. The earlier closure does not mean future activity should automatically be cleared. If the recurring pattern creates new or unresolved concerns, I would escalate the case for review of potentially continuing suspicious activity. I would not assume that a SAR was filed previously unless the information is available to me through authorized procedures.
-
-Scenario 17 · Expert
-
-A customer asks whether a SAR was filed
-
-During an investigation, a customer contacts the bank and asks whether their account has been reported to law enforcement because of suspicious transactions.
-
-Interview question: How should you respond?
-
-Model answer
-
-I would remain professional and follow the organization's customer communication procedures. I would not disclose whether a Suspicious Activity Report (SAR) has been filed or reveal confidential investigative information. If the request requires further handling, I would refer it to the authorized team. I would document the interaction according to policy.
-
-US-specific principle: SAR confidentiality requirements prohibit unauthorized disclosure that a SAR has been filed.
-
-![](https://www.google.com/s2/favicons?domain=https://www.fincen.gov\&sz=32)
-
-FinCEN.gov
-
-+1
-
-Scenario 18 · Expert
-
-The interviewer challenges your decision
-
-You recommend escalating an account involving multiple unexplained transfers. The interviewer says, "The customer has a good credit score, has been with the bank for eight years, and has never had a previous alert. Why are you escalating?"
-
-Interview question: Defend your decision.
-
-Model answer
-
-A long-standing customer relationship and good credit history are relevant background information, but they do not automatically eliminate AML risk. My decision is based on the actual transaction pattern, its consistency with the customer's profile, the explanations available, and the unresolved red flags. I would distinguish facts from assumptions, document the rationale, and escalate according to policy. Escalation is a request for appropriate review, not a declaration that the customer has committed a crime.
-
-What she demonstrates: Evidence-based judgment and confidence under questioning.
-
-## 7. Two-week preparation schedule
-
-The first 14 days should build her core knowledge. The following six days should test her ability to apply it in interview conditions.
-
-## 20-day study tracker
-
-Aim for 45–60 minutes daily.
-
-## 0/20
-
-Day 1: KYC, CDD, customer profiles
-
-Scenario 1
-
-Day 2: Transaction-monitoring red flags
-
-Scenarios 2 and 3
-
-Day 3: Legitimate versus suspicious activity
-
-Scenario 4
-
-Day 4: ACH, wires and cash deposits
-
-Review Scenarios 1–4
-
-Day 5: Structuring and CTR basics
-
-Scenario 5
-
-Day 6: Source and use of funds
-
-Scenario 6
-
-Day 7: Revision and mock interview
-
-Answer Scenarios 1–6 aloud
-
-Day 8: ACH patterns and cash withdrawals
-
-Scenario 7
-
-Day 9: Card payments, refunds and third-party funding
-
-Scenario 8
-
-Day 10: Money mules and linked accounts
-
-Scenario 9
-
-Day 11: OFAC and sanctions screening
-
-Scenario 10
-
-Day 12: Business-account investigations
-
-Scenario 11
-
-Day 13: Layering and transaction tracing
-
-Scenario 12
-
-Day 14: Revision and mock interview
-
-Answer Scenarios 5–12 aloud
-
-Day 15: Evidence versus customer explanations
-
-Scenario 13
-
-Day 16: Threshold misconceptions
-
-Scenario 14
-
-Day 17: Alert prioritization and SLAs
-
-Scenario 15
-
-Day 18: Repeat alerts and ongoing activity
-
-Scenario 16
-
-Day 19: SAR confidentiality and judgment
-
-Scenarios 17 and 18
-
-Day 20: Full mock interview
-
-Random scenarios; 2 minutes per answer
-
-Copy study tracker
-
-## 8. What each target company may test
-
-These are preparation priorities based on the types of work associated with AML operations, payments, and financial services—not claims about the exact interview questions used by these employers.
-
-![AML RightSource Reimagines Compliance with a Powerful Brand Refresh | Financial IT](https://images.openai.com/static-rsc-4/FWnfmBVi2df_oVY6jNg5aJKqEG-j1HreF8FZebSZ9LGBDMAMe5gzUzCfMsdvgrEToU81oG_2rfdN4GH4p-jv8Bse_ZVxfuTpQzbdGNBKk0pl0l_VbrlfWyI4C2mZacHVmUvXlKiPm00JjZjApCo-mMEeIqAM5c4nWqNSerQjkCs?purpose=inline)
-
-Add to Favorites
-
-AML RightSource
-
-Focus: AML investigations and financial crime compliance operations.
-
-* Alert investigation and case disposition
-
-* KYC/CDD and customer risk assessment
-
-* Suspicious activity indicators and case narratives
-
-* Quality, productivity, and escalation decisions
-
-![axp-20241231](https://images.openai.com/static-rsc-4/1hpLEorNjvimGAEUQgOVk_hKdBFGXa7AAqeAd7dVEKoEoUTBo0FHBWT9BQPYe46SyM_R9Chybg7s4GWDhpT8uG85KDryOIxPKzAfwMouBqX5C6qvO8JTxlF2QCywPE82hsx5MiV3fujy5w_gi1pxO2V-Hs0r1W6wzTAjk10ZCZ0?purpose=inline)
-
-Add to Favorites
-
-American Express
-
-Focus: Card payments, account activity, and financial crime risk.
-
-* Unusual card payments and refunds
-
-* Multiple funding accounts and third-party payments
-
-* Unusual spending or payment patterns
-
-* Coordination between AML, fraud, and operations teams
-
-![Genpact Logo .PNG and .AI, .EPS, .CDR, .PDF, .SVG - iconLogoVector](https://images.openai.com/static-rsc-4/sUmm9TIDOzxT6az3cEa_QqvgacFDRy9MUCQi9ZlxA9rk8jWwZlkPnmIy81xmWS_g-owt5RZxq8C3Ex2DxzFWDiZcSFDfM9vkc7t4wWzkihlm-GYB9DM6xJ1Xm2Wg76Atf4wrIY8eUHTa_HoNErHxWJ1KI1tnLYLLfxkjaz6HM-M?purpose=inline)
-
-Add to Favorites
-
-Genpact
-
-Focus: Financial services operations and client-specific compliance processes.
-
-* Transaction monitoring and alert disposition
-
-* Case documentation and quality checks
-
-* SLA management and risk-based prioritization
-
-* Communicating findings and escalating exceptions
-
-## 9. Essential US AML concepts to revise
-
-| Concept          | What she should know                                                                                                                                                                  |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| BSA              | Bank Secrecy Act; the foundation of US AML requirements.                                                                                                                              |
-| FinCEN           | The US Treasury bureau that administers key BSA requirements and receives SARs.                                                                                                       |
-| KYC / CDD        | Know Your Customer and Customer Due Diligence.                                                                                                                                        |
-| EDD              | Enhanced Due Diligence for customers or relationships requiring greater scrutiny.                                                                                                     |
-| SAR              | Suspicious Activity Report; filing is determined under the applicable rules and institution procedures.                                                                               |
-| CTR              | Currency Transaction Report, generally applicable to qualifying currency transactions exceeding $10,000 in aggregate in one business day, subject to regulatory rules and exceptions. |
-| OFAC             | US Treasury office administering economic and trade sanctions.                                                                                                                        |
-| Structuring      | Breaking up currency transactions with intent to evade applicable reporting requirements.                                                                                             |
-| Layering         | Moving funds through transactions or accounts to obscure their origin or ownership.                                                                                                   |
-| Money mule       | A person whose account is used to receive and move funds, potentially on behalf of criminals.                                                                                         |
-| Source of funds  | Where the money involved in a particular transaction originated.                                                                                                                      |
-| Source of wealth | How a customer's overall wealth was accumulated.                                                                                                                                      |
-
-For authoritative revision, she should use these US government resources:
-
-* [FFIEC BSA/AML Examination Manual](https://bsaaml.ffiec.gov/manual) — US banking AML procedures and risk indicators.
-
-* [FinCEN guidance](https://www.fincen.gov/resources/statutes-regulations/guidance) — BSA and suspicious activity reporting.
-
-* [OFAC FAQs](https://ofac.treasury.gov/faqs?utm_source=chatgpt.com) — sanctions screening and potential-match resolution.
-
-The distinction between unusual activity, a suspicious-activity escalation, and a final SAR filing decision is particularly important. The investigator should document the evidence and rationale; filing responsibilities depend on the institution's applicable requirements and procedures.
-
-![](https://www.google.com/s2/favicons?domain=https://bsaaml.ffiec.gov\&sz=32)
-
-Suspicious Activity Reporting
-
-+2
-
-## 10. How she should introduce herself in an interview
-
-Writing
-
-I am currently working as a Transaction Processing Advisor 2 and have five months of experience in transaction processing. My role has helped me develop attention to detail, accuracy, process adherence, and the ability to identify and handle transaction exceptions.
-
-I am now looking to build my career in Anti-Money Laundering and Transaction Monitoring because I am interested in analyzing transaction patterns, identifying unusual activity, and understanding financial crime risks.
-
-I understand the importance of reviewing transactions in the context of a customer's profile, documenting findings accurately, following established procedures, and escalating suspicious activity appropriately. I am actively strengthening my knowledge of US AML regulations, transaction-monitoring scenarios, BSA requirements, SARs, and OFAC sanctions screening.
-
-She should adjust the first paragraph to reflect her actual responsibilities. She should not claim direct AML investigation experience if she has only worked in transaction processing.
-
-## 11. Interview practice rules
-
-For each scenario, she should practice answering these five questions without reading the model answer:
-
-1. What triggered the alert?
-
-2. What are the main red flags?
-
-3. What information would you investigate?
-
-4. What would make the activity explainable or suspicious?
-
-5. Would you close, continue investigating, or escalate—and why?
-
-My recommendation: Start with Scenarios 1–4 until she can answer them naturally in about 60–90 seconds each. Then move to the intermediate cases. By the final week before interviews, she should be able to explain her reasoning, distinguish facts from assumptions, and defend her decisions when challenged.
-
-The aim is not to memorize 18 answers word for word. It is to develop a repeatable investigation method that works even when the interviewer changes the amounts, transaction channels, or customer profile.
-
-
-
-
-
-
-
-
-
-
-
-| Keyword | Definition | Market |
-|---|---|---|
-| **SAR** | Suspicious Activity Report filed when activity meets the applicable suspicious-activity reporting requirements. | US/UK, with different reporting systems |
-| **BSA/AML** | US framework of laws and controls designed to prevent and detect money laundering and related financial crime. | US |
-| **KYC** | Process of identifying and understanding a customer. | Both |
-| **CDD** | Ongoing process of understanding customer risk and activity. | Both |
-| **Structuring** | Breaking transactions into smaller amounts to avoid detection or reporting thresholds. | Primarily US terminology, concept applies broadly |
-| **Layering** | Moving funds through transactions or accounts to make their origin harder to trace. | Both |
-| **Source of Funds (SoF)** | Where the specific money involved in a transaction came from. | Both |
-| **Source of Wealth (SoW)** | How the customer accumulated their overall wealth. | Both |
-| **Red Flag** | An indicator that may suggest unusual or suspicious activity and requires investigation. | Both |
-| **Disposition** | The final documented outcome of an alert investigation. | Both |
-| **Funnel Account** | Account receiving funds from numerous locations and often consolidating or moving them elsewhere. | Strongly relevant to US AML |
-| **Money Mule** | Person/account used to receive, move, or transfer illicit funds on behalf of others. | Both |
-
-
-# Daily Transaction Monitoring — Lesson 2
-
-## Alert Investigation: From “Red Flag” to Defensible Disposition
-
-**Market focus: 🇺🇸 United States + 🇬🇧 United Kingdom**
-
-Today we are focusing on one of the most important practical skills for a Transaction Monitoring analyst:
-
-> **How do you investigate an alert without jumping to the conclusion that the customer is laundering money?**
-
-This is particularly important for interviews because employers generally don't want someone who simply knows AML terminology. They want someone who can take an alert, gather relevant information, identify meaningful red flags, distinguish unusual activity from genuinely suspicious activity, and document a defensible conclusion.
-
----
-
-# 1. What exactly is a Transaction Monitoring alert?
-
-A Transaction Monitoring system normally contains rules, scenarios, thresholds, models or other detection mechanisms designed to identify potentially unusual activity.
-
-For example, a US bank could have a scenario designed to identify:
-
-> Multiple incoming payments from unrelated parties followed by rapid outgoing transfers.
-
-A customer triggers the scenario.
-
-The system generates:
-
-**Alert ID: TM-XXXX**
-
-At this point, you have **an alert—not a SAR and not a finding of money laundering.**
-
-This distinction is critical.
-
-FinCEN's guidance says that institutions should consider the overall activity and multiple factors rather than treating one red flag as automatically determinative. ([FinCEN.gov][1])
-
-The analyst therefore needs to investigate the **context surrounding the alert**.
-
----
-
-# 2. Step One — Understand WHY the alert fired
-
-Before investigating the customer, understand the actual scenario.
-
-Suppose the rule is:
-
-### "Rapid Movement of Funds"
-
-Parameters:
-
-* Multiple incoming transactions
-* Multiple counterparties
-* Significant aggregate value
-* Funds moved out shortly after receipt
-* Activity materially different from historical behaviour
-
-The first question should be:
-
-> **Which transactions caused the alert to fire?**
-
-Don't simply look at the customer's most recent transaction.
-
-Identify:
-
-* Date/time
-* Amount
-* Transaction type
-* Originator
-* Beneficiary
-* Geography
-* Payment channel
-* Account involved
-* Transaction direction
-* Reference/payment description
-
-Then reconstruct the activity.
-
-For example:
-
-**Monday**
-
-A → Customer: $25,000
-
-B → Customer: $18,000
-
-C → Customer: $22,000
-
-**Monday evening**
-
-Customer → D: $30,000
-
-Customer → E: $25,000
-
-**Tuesday**
-
-Customer → Cash withdrawal: $7,000
-
-That's much more informative than saying:
-
-> "Customer received $65,000."
-
-You're beginning to see the **flow of funds**.
-
----
-
-# 3. Step Two — Understand the customer
-
-Now move to KYC/CDD.
-
-For a US or UK investigation, you might review:
-
-* Customer type
-* Individual/business
-* Occupation/business activity
-* Expected account activity
-* Source of funds/wealth information
-* Customer risk rating
-* Geographic footprint
-* Account opening date
-* Products/services used
-* Previous alerts
-* Previous SAR-related information where your role permits access
-* Adverse media/internal intelligence
-* Beneficial ownership for relevant entities
-
-The objective is simple:
-
-> **Does the customer's actual activity make sense given what the institution knows about them?**
-
-Imagine two customers each receive $500,000.
-
-### Customer A
-
-* Large US commercial property business
-* Annual revenue: $30 million
-* Regular property transactions
-* Receives large wire transfers
-
-$500,000 may be completely normal.
-
-### Customer B
-
-* Personal checking account
-* Declared occupation: teacher
-* Annual income: $65,000
-* Historically receives payroll
-* Suddenly receives $500,000 from 15 unrelated people
-
-The second scenario requires considerably more investigation.
-
-The **amount alone** isn't the conclusion.
-
-The **mismatch between profile and behaviour** is what makes the activity potentially concerning.
-
----
-
-# 4. Step Three — Establish the customer's baseline
-
-This is one of the most valuable skills you can develop.
-
-Suppose historical activity shows:
-
-| Activity            | Historical pattern |
-| ------------------- | -----------------: |
-| Monthly credits     |      $4,000–$7,000 |
-| Monthly debits      |      $3,000–$6,000 |
-| Counterparties      |                5–8 |
-| International wires |               None |
-| Cash                |            Minimal |
-
-Then during one week:
-
-> $380,000 incoming
-> 31 counterparties
-> $350,000 sent onward
-> 12 new beneficiaries
-
-The most important observation isn't:
-
-> **"$380,000 is a large amount."**
-
-It's:
-
-> **"The customer's transactional behaviour has materially deviated from their established baseline."**
-
-This is exactly the type of thinking that makes a Transaction Monitoring analyst valuable.
-
----
-
-# 5. Step Four — Follow the money
-
-Now investigate the transaction chain.
-
-Suppose:
-
-**A → Customer: $80,000**
-
-**B → Customer: $65,000**
-
-**C → Customer: $75,000**
-
-**D → Customer: $60,000**
-
-Total:
-
-**$280,000**
-
-Then:
-
-**Customer → E: $100,000**
-
-**Customer → F: $90,000**
-
-**Customer → G: $70,000**
-
-You need to understand:
-
-### Source
-
-Who sent the money?
-
-### Purpose
-
-Why?
-
-### Relationship
-
-How are they connected to the customer?
-
-### Destination
-
-Who received it?
-
-### Velocity
-
-How quickly did it move?
-
-### Economic rationale
-
-Does the overall flow make sense?
-
-This can reveal patterns associated with:
-
-* money mule activity
-* layering
-* fraud proceeds
-* funnel accounts
-* third-party payment activity
-* trade-based schemes
-* sanctions evasion
-* other illicit finance typologies
-
----
-
-# 6. Step Five — Don't confuse "unusual" with "suspicious"
-
-This is one of the most important interview concepts.
-
-Suppose a customer normally receives $5,000/month.
-
-Suddenly they receive:
-
-**$250,000.**
-
-That's clearly unusual.
-
-But you don't immediately conclude:
-
-> "Money laundering."
-
-The customer may have:
-
-* sold a property
-* received an inheritance
-* sold a business
-* received an insurance settlement
-* received a legitimate investment payout
-* received a documented loan
-
-The investigation determines whether there is a credible explanation.
-
-FinCEN's standard is based on knowledge, suspicion, or reason to suspect qualifying suspicious activity, including activity involving illegal proceeds, attempts to disguise such proceeds, BSA evasion, or transactions lacking a business or apparent lawful purpose where no reasonable explanation is identified after examining available facts. ([FinCEN.gov][2])
-
----
-
-# 7. US vs UK: A very important distinction
-
-You need to become comfortable switching between the two regulatory environments.
-
-## 🇺🇸 United States
-
-The suspicious activity reporting framework is centered around the **BSA/AML regime** and **FinCEN**.
-
-For covered financial institutions, suspicious activity may lead to a **SAR filed with FinCEN**.
-
-FinCEN's rules generally require reporting within the applicable regulatory timeframe after initial detection of reportable suspicious activity. Supporting documentation must also be maintained. ([FinCEN.gov][3])
-
-For an analyst, think:
-
-**Alert → Investigation → Suspicion determination → SAR decision/escalation → SAR narrative/supporting documentation**
-
----
-
-## 🇬🇧 United Kingdom
-
-The UK framework uses the **SAR regime administered by the UKFIU**, which sits within the National Crime Agency.
-
-UK SARs are used to provide intelligence to law enforcement concerning suspected money laundering or terrorist financing. ([National Crime Agency][4])
-
-The UK approach also has an important connection with:
-
-* Proceeds of Crime Act 2002
-* Money Laundering Regulations
-* UKFIU
-* NCA
-* FCA expectations
-* DAML/DATF concepts in appropriate cases
-
-UK regulated-sector guidance states that where the legal reporting obligation applies, a SAR should be submitted as soon as practicable after suspicion is formed. ([GOV.UK][5])
-
-### Interview shortcut
-
-If asked:
-
-**"What's the difference between US and UK suspicious activity reporting?"**
-
-Think:
-
-> **US → FinCEN SAR / BSA framework**
-
-> **UK → UKFIU SAR / POCA framework**
-
-Don't assume the underlying investigative logic is completely different. The analyst still needs to establish **who, what, why, source, destination, pattern, risk and evidence**.
-
----
-
-# 8. Real-world US case — TD Bank
-
-### FACTUAL CASE — not hypothetical
-
-One of the most important Transaction Monitoring cases for you to study is **United States v. TD Bank**.
-
-On **October 10, 2024**, the US Department of Justice announced that TD Bank pleaded guilty to violations involving its AML program and CTR obligations.
-
-The case is extremely relevant to Transaction Monitoring.
-
-According to DOJ, between 2014 and 2023 TD Bank failed to adequately update its AML program despite known risks.
-
-More importantly for a Transaction Monitoring analyst:
-
-> **From 2014 through 2022, TD Bank did not add new transaction-monitoring scenarios despite known deficiencies, emerging money-laundering risks, and new products/services.**
-
-DOJ also stated that TD Bank excluded domestic ACH transactions, most check activity and other transaction types from automated monitoring.
-
-The resulting gap meant approximately **92% of total transaction volume—about $18.3 trillion—was unmonitored between January 2018 and April 2024**.
-
-Three money-laundering networks subsequently moved more than **$670 million** through TD Bank accounts between 2019 and 2023. ([Department of Justice][6])
-
-### Why this case matters to YOU
-
-This case teaches something extremely important:
-
-> **Transaction Monitoring isn't only about investigating alerts. You must also understand what the monitoring system is NOT seeing.**
-
-If a payment type is excluded from monitoring, there may be no alert to investigate.
-
-Therefore:
-
-**Incomplete transaction coverage = potential blind spot.**
-
-This is a fantastic interview point.
-
-If asked:
-
-> "What makes an effective Transaction Monitoring system?"
-
-Don't only say:
-
-> "Good scenarios and thresholds."
-
-Say:
-
-> **"The institution needs complete and accurate transaction data coverage, appropriate risk-based scenarios, effective thresholds, periodic tuning and validation, and a process for identifying emerging risks."**
-
-That is a much stronger answer.
-
----
-
-# 9. Synthetic Investigation Case
-
-### ⚠️ FICTIONALIZED — modeled on documented US/UK typologies
-
-### Customer profile
-
-**Customer:** Michael R.
-**Location:** United States
-**Age:** 27
-**Occupation:** Freelance graphic designer
-**Annual income:** $70,000
-**Account:** Personal checking
-**Account age:** 14 months
-
-### Historical behaviour
-
-Average monthly:
-
-* Incoming: $4,500
-* Outgoing: $3,800
-* Counterparties: 8–12
-* International transactions: None
-
----
-
-## Alert-triggering activity
-
-During 5 days:
-
-**24 incoming transactions**
-
-Total:
-
-**$186,000**
-
-Sources:
-
-**19 unrelated individuals**
-
-Then:
-
-**$161,000 sent out**
-
-Destinations:
-
-* 8 different domestic accounts
-* 3 international wires
-* 2 cash withdrawals
-
-### Alert trigger
-
-> Rapid receipt and dispersal of funds involving numerous counterparties and activity materially inconsistent with historical customer behaviour.
-
----
-
-# 10. Red flags
-
-### 🔴 Profile mismatch
-
-A freelance designer earning $70k has suddenly processed $186k in five days.
-
-### 🔴 Multiple unrelated originators
-
-19 people sending funds.
-
-### 🔴 Rapid movement
-
-Most funds leave shortly after receipt.
-
-### 🔴 New beneficiaries
-
-11 new destinations.
-
-### 🔴 Cross-border activity
-
-International transfers appear for the first time.
-
-### 🔴 Low retention
-
-The account retains little of the incoming funds.
-
-None of these proves money laundering.
-
-Together, however, they create a strong basis for further investigation.
-
----
-
-# 11. Investigation plan
-
-### Step 1 — KYC review
-
-Check:
-
-* occupation
-* income
-* expected activity
-* account purpose
-* risk rating
-
-### Step 2 — Historical comparison
-
-Compare:
-
-**5-day alert period vs previous 12 months**
-
-### Step 3 — Originator analysis
-
-Determine:
-
-* Are originators connected?
-* Are there common addresses?
-* Common phone numbers?
-* Common businesses?
-* Common devices/IPs where available?
-* Are any known previously suspicious?
-
-### Step 4 — Beneficiary analysis
-
-Identify:
-
-* who received the funds
-* whether beneficiaries are related
-* whether they are businesses
-* whether they appear elsewhere in the institution's network
-
-### Step 5 — Payment narrative analysis
-
-Review:
-
-* wire descriptions
-* payment references
-* memo fields
-* invoices where available
-* stated purposes
-
-### Step 6 — Source-of-funds investigation
-
-Ask:
-
-> Where did the money originate?
-
-### Step 7 — Purpose investigation
-
-Ask:
-
-> Why did 19 unrelated individuals pay this customer?
-
-### Step 8 — Follow the money
-
-Construct:
-
-**Originators → Michael → Beneficiaries**
-
-Look for network relationships.
-
----
-
-# 12. Evidence you may request/review
-
-Depending on the institution and investigation:
-
-* invoices
-* contracts
-* employment/business documentation
-* source-of-funds evidence
-* explanation of relationships with counterparties
-* payment purpose
-* supporting correspondence
-* account statements from relevant external accounts
-* documentation supporting international transfers
-
-FinCEN explicitly treats records such as transaction records, new-account information, correspondence and other records that helped the institution make its SAR determination as potential supporting documentation. ([FinCEN.gov][3])
-
----
-
-# 13. Likely disposition
-
-### Scenario A — Legitimate explanation
-
-Customer demonstrates that they temporarily collected payments on behalf of a legitimate design agency, provides contracts/invoices, and counterparties can be independently connected to the business.
-
-**Potential disposition:**
-
-> Close / no further action, subject to institution policy and adequate documentation.
-
-### Scenario B — Explanation unsupported
-
-Customer cannot explain the counterparties, has no supporting documentation, funds are rapidly dispersed, and network analysis identifies links to other suspicious accounts.
-
-**Potential disposition:**
-
-> Escalate for further investigation and potential SAR reporting according to the institution's procedures.
-
-Again:
-
-**The alert doesn't determine the outcome. The evidence does.**
-
----
-
-# 14. Today's Key Takeaways
-
-### 1. Alert ≠ suspicious activity
-
-An alert is an investigative starting point.
-
-### 2. Establish the baseline
-
-Know what normal looks like before deciding what unusual means.
-
-### 3. Follow the money
-
-**Source → Customer → Destination → Counterparty → Purpose**
-
-### 4. Red flags are cumulative
-
-One unusual transaction may have a legitimate explanation. Multiple unexplained indicators create a stronger concern.
-
-### 5. Learn the US/UK reporting distinction
-
-**US:** FinCEN / BSA / SAR
-
-**UK:** UKFIU / NCA / SAR / POCA
-
----
-
-# Interview Practice
-
-### Q1. "Walk me through how you would investigate a Transaction Monitoring alert."
-
-**Strong answer:**
-
-> "First, I would understand the scenario and identify the transactions that triggered it. Then I would review the customer's KYC profile, expected activity and historical transaction behaviour. I would analyse the source and destination of funds, counterparties, transaction velocity, geography and payment channels. I would then look for a legitimate economic rationale and obtain or review supporting evidence where appropriate. Finally, I would document my findings objectively and determine whether the alert can be closed or needs escalation according to the firm's procedures."
-
----
-
-### Q2. "Would you file a SAR simply because multiple red flags are present?"
-
-**Strong answer:**
-
-> "Not automatically. Red flags are indicators that require investigation. I would assess them collectively against the customer's profile, historical behaviour, transaction pattern and available evidence. If the investigation establishes the applicable level of suspicion under the firm's procedures and regulatory framework, I would escalate for SAR consideration."
-
-That answer demonstrates **analytical judgment**, rather than simply memorizing:
-
-> "Red flags = SAR."
-
----
-
-### Q3. "What did the TD Bank case teach you about Transaction Monitoring?"
-
-**Strong answer:**
-
-> "It demonstrated that having a Transaction Monitoring system is not enough. Institutions need complete transaction coverage, appropriate and current monitoring scenarios, effective risk-based controls and governance. TD Bank had significant transaction types outside its automated monitoring, resulting in a major monitoring blind spot. For an analyst, it highlights the importance of understanding both what an alert detects and what activity may not be covered by the monitoring framework."
-
-That is a **very strong interview answer** because you're connecting a real enforcement case to actual Transaction Monitoring operations.
-
----
-
-## Today's study article
-
-**Primary US source:** [U.S. Department of Justice — United States v. TD Bank, N.A.](https://www.justice.gov/criminal/case/united-states-america-v-td-bank-na?utm_source=chatgpt.com)
-
-**US SAR guidance:** [FinCEN — Suspicious Activity Reporting Requirements](https://www.fincen.gov/resources/advisories/fincen-advisory-fin-2017-a003?utm_source=chatgpt.com)
-
-**US SAR documentation:** [FinCEN — SAR Supporting Documentation](https://www.fincen.gov/resources/statutes-regulations/guidance/suspicious-activity-report-supporting-documentation?utm_source=chatgpt.com)
-
-**UK SAR framework:** [National Crime Agency — Suspicious Activity Reports](https://www.nationalcrimeagency.gov.uk/what-we-do/crime-threats/money-laundering-and-illicit-finance/suspicious-activity-reports?utm_source=chatgpt.com)
-
-**UK reporting guidance:** [HMRC — Reporting Suspicious Activity](https://www.gov.uk/hmrc-internal-manuals/economic-crime-supervision-handbook/ecsh34225?utm_source=chatgpt.com)
-
-### One sentence to remember today
-
-> **A Transaction Monitoring analyst does not investigate whether a transaction "looks suspicious"; they investigate whether the customer's overall activity is consistent with their known profile and whether the available evidence provides a reasonable explanation for the observed behaviour.**
-
-[1]: https://www.fincen.gov/resources/advisories/fincen-advisory-fin-2017-a007-0?utm_source=chatgpt.com "FinCEN Advisory FIN-2017-A007 | FinCEN.gov"
-[2]: https://www.fincen.gov/resources/advisories/fincen-advisory-fin-2017-a003?utm_source=chatgpt.com "FinCEN Advisory - FIN-2017-A003 | FinCEN.gov"
-[3]: https://www.fincen.gov/resources/statutes-regulations/guidance/suspicious-activity-report-supporting-documentation?utm_source=chatgpt.com "Suspicious Activity Report Supporting Documentation | FinCEN.gov"
-[4]: https://www.nationalcrimeagency.gov.uk/what-we-do/crime-threats/money-laundering-and-illicit-finance/suspicious-activity-reports?utm_source=chatgpt.com "Suspicious Activity Reports - National Crime Agency"
-[5]: https://www.gov.uk/hmrc-internal-manuals/economic-crime-supervision-handbook/ecsh34225?utm_source=chatgpt.com "ECSH34225 - Suspicious activity reports - HMRC internal manual - GOV.UK"
-[6]: https://www.justice.gov/criminal/case/united-states-america-v-td-bank-us-holding-company?utm_source=chatgpt.com "Criminal Division | United States of America v. TD Bank US Holding Company | United States Department of Justice"
-
-
- ## 1\. OFAC
-
- **OFAC = Office of Foreign Assets Control**
-
- OFAC is a department within the **U.S. Department of the Treasury**.
-
- ### What does OFAC do?
-
- OFAC administers and enforces **U.S. economic sanctions** against countries, organizations, companies, and individuals that the U.S. has designated under various sanctions programs.
-
- In simple words:
-
- > **OFAC helps ensure that U.S. persons and businesses do not conduct prohibited transactions with sanctioned people, organizations, or countries.**
-
- ### Example
-
- Suppose a company is processing an international payment.
-
- Before completing the payment, the company may check whether the people or organizations involved appear on a relevant U.S. sanctions list.
-
- If the transaction involves a sanctioned person, the company may have to **block or reject the transaction**, depending on the applicable sanctions program and circumstances.
-
- ### What is the OFAC SDN List?
-
- One important OFAC list is the:
-
- **SDN List = Specially Designated Nationals and Blocked Persons List**
-
- It contains individuals and entities that are subject to certain blocking sanctions.
-
- Financial institutions commonly screen:
-
- - Customers
-- Beneficial owners
-- Businesses
-- Payments
-- Vendors
-- Other transaction parties
-
- against applicable sanctions lists.
-
- ### Important point
-
- OFAC is primarily about **sanctions**, rather than being a general AML regulator.
-
- Think:
-
- **OFAC → Sanctions → Who are we prohibited from dealing with?**
-
----
-
- # 2\. FATF
-
- **FATF = Financial Action Task Force**
-
- FATF is an **international organization** that develops global standards for fighting:
-
- - Money laundering
-- Terrorist financing
-- Financing of proliferation of weapons of mass destruction
-
- ### What does FATF do?
-
- FATF creates recommendations and standards that countries use to develop their AML/CFT systems.
-
- For example, FATF standards cover areas such as:
-
- - Customer Due Diligence (CDD)
-- Beneficial ownership
-- Suspicious transaction reporting
-- Risk assessment
-- Sanctions
-- International cooperation
-- Financial institution supervision
-
- ### Simple example
-
- Imagine 200 countries each had completely different approaches to money laundering.
-
- Criminals could exploit countries with weak controls.
-
- FATF tries to create a **common international framework** so countries can strengthen their systems and cooperate with each other.
-
- ### FATF Recommendations
-
- FATF has a set of international standards commonly referred to as the **FATF Recommendations**.
-
- They are often called the **"40 Recommendations."**
-
- They provide a framework for countries to establish effective AML/CFT systems.
-
- ### FATF does NOT normally work like a bank regulator
-
- FATF generally doesn't investigate your individual bank account.
-
- Instead, it evaluates how effectively **countries** implement AML/CFT standards.
-
- Think:
-
- **FATF → Global standards → How should countries fight financial crime?**
-
----
-
- # 3\. CFT
-
- **CFT = Combating the Financing of Terrorism**
-
- CFT means measures designed to prevent people or organizations from providing or moving money or other financial resources for **terrorist activities or terrorist organizations**.
-
- ### What is terrorist financing?
-
- In simple terms:
-
- > Terrorist financing involves providing, collecting, moving, or making available funds or other assets for terrorist activities or organizations, where prohibited by applicable law.
-
- ### AML vs CFT
-
- This distinction is very important.
-
- **AML** focuses primarily on preventing and detecting **money laundering**.
-
- Money laundering generally involves taking money connected to criminal activity and making it appear legitimate.
-
- **CFT** focuses on preventing money or assets from being used to support **terrorism or terrorist activity**.
-
- ### A major difference
-
- With money laundering, the money is often generated **illegally first**.
-
- For example:
-
- > Drug trafficking → illegal proceeds → money laundering
-
- With terrorist financing, the money can come from **legitimate or illegitimate sources**, depending on the circumstances.
-
- For example:
-
- > Legitimate income/donation → funds diverted to terrorist activity
-
- Therefore:
-
- **AML asks:**\
- "Could this money be proceeds of crime?"
-
- **CFT asks:**\
- "Could this money be supporting terrorism?"
-
- ### CFT controls can include:
-
- - Customer identification
-- Transaction monitoring
-- Sanctions screening
-- Suspicious transaction reporting
-- Beneficial ownership checks
-- Monitoring unusual transfers
-- Screening against relevant terrorist-designation lists
-
- Think:
-
- **CFT → Prevent money/resources from reaching terrorist activities or organizations.**
-
----
-
- # 4\. BSA
-
- **BSA = Bank Secrecy Act**
-
- The Bank Secrecy Act is a major **U.S. federal law** concerning financial records and reporting designed to help government authorities detect and prevent financial crimes, including money laundering.
-
- It was enacted in **1970** and has been amended by subsequent laws.
-
- ### What does the BSA require?
-
- Among other things, covered financial institutions have obligations involving:
-
- - Recordkeeping
-- Reporting certain transactions
-- Customer identification and due diligence
-- Suspicious Activity Reports (SARs)
-- Currency Transaction Reports (CTRs)
-- AML programs
-
- ### Example: CTR
-
- A **Currency Transaction Report (CTR)** is generally required for certain cash transactions **over $10,000 in a business day**.
-
- For example:
-
- A customer deposits $15,000 in cash.
-
- The bank may have a CTR reporting obligation.
-
- ### Example: SAR
-
- A **Suspicious Activity Report (SAR)** is used by covered financial institutions to report potentially suspicious activity to the U.S. government.
-
- For example, suppose a customer's transactions appear structured to avoid reporting requirements.
-
- The bank may investigate and, where the legal requirements are met, file a SAR.
-
- ### Who administers BSA requirements?
-
- The **Financial Crimes Enforcement Network (FinCEN)**, a bureau of the U.S. Treasury Department, plays a central role in administering and enforcing the BSA.
-
- Think:
-
- **BSA → U.S. law → Financial reporting and AML requirements**
-
----
-
- # 5\. USA PATRIOT Act
-
- **USA PATRIOT Act = Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism Act**
-
- It was enacted in the United States in **2001**, following the September 11 terrorist attacks.
-
- It covers many areas related to national security and law enforcement.
-
- For AML/CFT, one particularly important part is **Title III**, which strengthened U.S. measures against money laundering and terrorist financing.
-
----
-
- ## What did the USA PATRIOT Act do for financial institutions?
-
- It strengthened requirements concerning areas such as:
-
- - Customer identification
-- AML programs
-- Correspondent banking
-- Foreign financial institutions
-- Suspicious financial activity
-- Information sharing
-- Terrorist financing
-
- ### Customer Identification Program (CIP)
-
- One important concept is the **Customer Identification Program**.
-
- Banks generally need procedures to obtain and verify information about customers when establishing accounts.
-
- For example, a bank may collect information such as:
-
- - Name
-- Date of birth
-- Address
-- Identification number/document information
-
- The purpose is to help the institution understand **who the customer actually is**.
-
- Think:
-
- **USA PATRIOT Act → Strengthened U.S. AML/CFT framework, especially after 9/11.**
-
----
-
- # How are all five connected?
-
- This is the most important part to understand.
-
- Imagine a bank receives an international transaction.
-
- The bank may have to consider several different areas:
-
- ### Step 1 — Identify the customer
-
- The bank needs to know who its customer is.
-
- This relates to **KYC/CDD** and U.S. requirements including the BSA and USA PATRIOT Act.
-
- ↓
-
- ### Step 2 — Understand the customer's risk
-
- The bank considers factors such as:
-
- - Customer type
-- Business activity
-- Geography
-- Products/services
-- Transaction behavior
-
- ↓
-
- ### Step 3 — Monitor transactions
-
- The bank looks for unusual or potentially suspicious activity.
-
- This is strongly connected with **BSA/AML requirements**.
-
- ↓
-
- ### Step 4 — Check sanctions
-
- The bank checks relevant sanctions information.
-
- This is where **OFAC** becomes particularly important.
-
- ↓
-
- ### Step 5 — Consider terrorist financing
-
- The institution considers whether activity could involve terrorist financing.
-
- This relates to **CFT**.
-
- ↓
-
- ### Step 6 — Follow international standards
-
- The country's AML/CFT framework is influenced by international standards developed by **FATF**.
-
----
-
- # Easy way to remember them
-
- | Term | Full form | Main idea |
-| --- | --- | --- |
-| **OFAC** | Office of Foreign Assets Control | 🇺🇸 **Sanctions** |
-| **FATF** | Financial Action Task Force | 🌎 **Global AML/CFT standards** |
-| **CFT** | Combating the Financing of Terrorism | 🚫 **Stop terrorist financing** |
-| **BSA** | Bank Secrecy Act | 🇺🇸 **U.S. AML/reporting law** |
-| **USA PATRIOT Act** | Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism Act | 🇺🇸 **Strengthened AML/CFT and national-security measures** |
-
-## One-line memory trick
-
- **OFAC = Sanctions**\
- **FATF = Global standards**\
- **CFT = Stop terrorist financing**\
- **BSA = U.S. AML law/reporting**\
- **PATRIOT Act = Strengthened U.S. AML/CFT framework**
-
- ### A simple real-world example
-
- Suppose **ABC Bank** in the U.S. has a customer who sends an international payment.
-
- ABC Bank might:
-
- **1\. Identify the customer** → KYC/CIP\
- **2\. Understand the customer's risk** → CDD\
- **3\. Monitor the transaction** → AML/BSA\
- **4\. Check applicable sanctions** → OFAC\
- **5\. Look for potential terrorist financing** → CFT\
- **6\. File a SAR if legally required** → BSA\
- **7\. Operate within the broader international AML/CFT framework** → FATF standards
-
- So, these aren't five completely separate concepts. They are **different pieces of the broader financial-crime compliance system**.
-
-
- FATF 40 RECOMMENDATIONS 
-
- https://www.linkedin.com/posts/muhammadshakil1_fatf-40-recommendations-at-a-glance-money-activity-7479101382428397568-E2kd
