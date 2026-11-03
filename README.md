@@ -1,6 +1,320 @@
-Below is a GitHub-ready `README.md` version of your content. I've organised it with a professional project overview, clickable table of contents, clear sections, Markdown formatting, and interview-preparation navigation.
+Here is a GitHub-ready `README.md` version. It uses Markdown headings, tables, bullet points, and code formatting. You can copy it directly into your repository's `README.md` file.
 
-You can copy the entire content into a file named `README.md` in your GitHub repository.
+# US AML & Financial Crime Compliance – Interview Notes
+
+A concise study guide covering five important topics for Anti-Money Laundering (AML), Transaction Monitoring, and Financial Crime Compliance interviews in the US financial services industry.
+
+## Table of Contents
+
+1. OFAC
+2. FATF
+3. CFT
+4. BSA
+5. USA PATRIOT Act
+6. How They Work Together
+7. Interview Questions
+8. Official References
+
+---
+
+## 1. OFAC – Office of Foreign Assets Control
+
+### What is OFAC?
+
+OFAC is an office of the **US Department of the Treasury** responsible for administering and enforcing economic and trade sanctions against targeted countries, individuals, organisations, entities, and other parties.
+
+### Key Responsibilities
+
+- Maintains sanctions lists, including the **Specially Designated Nationals (SDN) List**.
+- Administers US sanctions programmes.
+- Restricts transactions involving sanctioned parties where applicable.
+- Enforces sanctions violations and may impose civil penalties.
+- Provides guidance to financial institutions on sanctions compliance.
+
+### Example
+
+A US bank receives an international payment. During screening, the beneficiary's details match an individual on the OFAC SDN List.
+
+The bank must investigate the potential match and follow its sanctions procedures. If it is a confirmed match, the bank must apply the legally required blocking or rejection measures and reporting obligations.
+
+### Important Interview Points
+
+- OFAC focuses on sanctions compliance.
+- A potential name match is not automatically a confirmed match.
+- Analysts compare identifiers such as:
+  - Full name and aliases
+  - Date of birth
+  - Nationality
+  - Address
+  - Identification details
+- A confirmed match must be handled according to applicable sanctions requirements and internal procedures.
+
+**Remember:** OFAC = US Sanctions Compliance.
+
+---
+
+## 2. FATF – Financial Action Task Force
+
+### What is FATF?
+
+FATF is an **international intergovernmental organisation** that develops global standards to combat:
+
+- Money Laundering (ML)
+- Terrorist Financing (TF)
+- Proliferation Financing (PF)
+
+### Key Responsibilities
+
+- Publishes the **FATF 40 Recommendations**.
+- Evaluates countries' AML/CFT frameworks through mutual evaluations.
+- Identifies jurisdictions with strategic deficiencies.
+- Encourages international cooperation.
+- Promotes a risk-based approach to financial crime prevention.
+
+### FATF Jurisdiction Lists
+
+FATF identifies jurisdictions under two important public categories:
+
+1. **High-Risk Jurisdictions subject to a Call for Action:** Countries requiring enhanced due diligence and, in some cases, countermeasures.
+2. **Jurisdictions under Increased Monitoring:** Countries working with FATF to address identified strategic deficiencies.
+
+### Example
+
+A bank receives a transaction involving a jurisdiction identified by FATF as being under increased monitoring.
+
+The bank assesses the geographic risk, reviews the customer's profile, verifies the transaction's purpose, and applies additional due diligence where required by its risk assessment and internal policies.
+
+### Important Interview Points
+
+- FATF establishes international AML/CFT standards.
+- FATF does not directly arrest individuals or impose sanctions on individual customers.
+- Countries implement FATF standards through their own laws and regulatory frameworks.
+- FATF recommendations support a risk-based approach.
+
+**Remember:** FATF = Global AML/CFT Standards.
+
+---
+
+## 3. CFT – Combating the Financing of Terrorism
+
+### What is CFT?
+
+CFT refers to measures designed to prevent funds or financial services from being used to support terrorist individuals, organisations, or activities.
+
+### Key Responsibilities
+
+- Identify suspicious funding patterns.
+- Detect possible links to designated terrorist organisations.
+- Screen customers and transactions against relevant sanctions lists.
+- Investigate suspicious transfers and beneficiaries.
+- Report suspicious activity under applicable laws and procedures.
+
+### Example
+
+A customer regularly sends small payments to multiple unrelated overseas beneficiaries.
+
+During investigation, the analyst discovers information suggesting that some beneficiaries may be connected to a designated terrorist organisation.
+
+The analyst reviews the transaction history, verifies available information, documents the findings, and escalates the case through the appropriate process.
+
+### AML vs CFT
+
+| AML                                               | CFT                                                          |
+| ------------------------------------------------- | ------------------------------------------------------------ |
+| Prevents and detects money laundering.            | Prevents and detects terrorist financing.                    |
+| Focuses on disguising criminal proceeds.          | Focuses on funding terrorist activities.                     |
+| Funds generally originate from criminal activity. | Funds may originate from legitimate or illegitimate sources. |
+| Detects placement, layering and integration.      | Detects suspicious funding channels and terrorist links.     |
+
+### Important Interview Point
+
+Terrorist financing is not limited to money generated through criminal activity. Legitimate income, donations, or business revenue can also be misused to finance terrorism.
+
+**Remember:** CFT = Preventing Terrorist Funding.
+
+---
+
+## 4. BSA – Bank Secrecy Act
+
+### What is BSA?
+
+The **Bank Secrecy Act (BSA)** is a major US law that requires financial institutions to maintain records and assist authorities in detecting and preventing money laundering and other financial crimes.
+
+It is a foundation of the US AML regulatory framework.
+
+### Key Responsibilities
+
+Financial institutions must maintain appropriate controls, including:
+
+- AML programmes.
+- Customer identification and due diligence.
+- Transaction monitoring.
+- Suspicious Activity Reports (SARs).
+- Currency Transaction Reports (CTRs).
+- Required records and record retention.
+
+### Important BSA Reporting Requirements
+
+#### A. SAR – Suspicious Activity Report
+
+A SAR is filed when activity meets applicable suspicious activity reporting requirements.
+
+**Example:**
+
+A customer makes multiple cash deposits structured to avoid reporting requirements.
+
+The bank investigates the activity and determines whether a SAR filing is required.
+
+#### B. CTR – Currency Transaction Report
+
+A CTR generally reports qualifying currency transactions exceeding **$10,000 in aggregate in one business day**, subject to applicable aggregation rules and exemptions.
+
+**Example:**
+
+A customer deposits $12,000 in cash into a bank account in one business day.
+
+The bank assesses the transaction under CTR requirements.
+
+### SAR vs CTR
+
+| SAR                                                   | CTR                                                              |
+| ----------------------------------------------------- | ---------------------------------------------------------------- |
+| Reports suspicious activity.                          | Reports qualifying currency transactions.                        |
+| Based on suspicion and applicable reporting criteria. | Generally based on cash transaction amount and applicable rules. |
+| Can involve cash or non-cash activity.                | Concerns qualifying currency transactions.                       |
+| No general $10,000 minimum threshold.                 | Generally applies above $10,000 in aggregate per business day.   |
+
+### Important Interview Points
+
+- SAR and CTR are different reports.
+- A transaction does not need to exceed $10,000 to be considered for SAR reporting.
+- Structuring can be suspicious even when individual transactions are below $10,000.
+- Reporting decisions must follow applicable regulations and institutional procedures.
+
+**Remember:** BSA = US AML Controls, Records, SARs and CTRs.
+
+---
+
+## 5. USA PATRIOT Act
+
+### What is the USA PATRIOT Act?
+
+The USA PATRIOT Act was enacted in **2001** following the September 11 terrorist attacks.
+
+It strengthened US measures against terrorism financing and money laundering and expanded financial institutions' AML-related obligations.
+
+### Important Sections
+
+| Section        | Purpose                                                                                                                                    |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Section 311    | Allows special measures against certain foreign jurisdictions, financial institutions or transactions of primary money laundering concern. |
+| Section 312    | Requires due diligence, and in certain cases enhanced due diligence, for foreign correspondent and private banking relationships.          |
+| Section 313    | Prohibits certain correspondent accounts for foreign shell banks.                                                                          |
+| Section 314(a) | Enables law enforcement-related information requests through FinCEN to financial institutions.                                             |
+| Section 326    | Requires financial institutions to establish Customer Identification Programs (CIP).                                                       |
+
+### Example – Section 326 (CIP)
+
+A US bank receives an application from a new customer who wants to open an account.
+
+The bank's Customer Identification Program requires it to collect and verify required identifying information, such as:
+
+- Name
+- Date of birth
+- Address
+- Identification number
+
+The bank follows its verification procedures before establishing the customer relationship.
+
+### Example – Section 314(a)
+
+Law enforcement authorities request information about specified individuals through FinCEN.
+
+Participating financial institutions search their records for the relevant subjects and respond according to applicable procedures.
+
+### Important Interview Points
+
+- Strengthened US AML/CFT requirements.
+- Expanded customer identification and due diligence obligations.
+- Supports information sharing between financial institutions and law enforcement.
+- Includes requirements relating to correspondent banking and foreign shell banks.
+
+**Remember:** USA PATRIOT Act = Strengthened US AML/CFT Framework.
+
+---
+
+## 6. How They Work Together
+
+Imagine a US bank receives an international transfer of **$25,000** from a customer.
+
+| Framework       | How it applies                                                                   |
+| --------------- | -------------------------------------------------------------------------------- |
+| OFAC            | Screens the sender and beneficiary against applicable sanctions lists.           |
+| FATF            | Helps assess geographic risk associated with the countries involved.             |
+| CFT             | Helps identify possible connections to terrorist financing.                      |
+| BSA             | Supports transaction monitoring, recordkeeping and applicable SAR/CTR reporting. |
+| USA PATRIOT Act | Supports CIP, due diligence and applicable information-sharing requirements.     |
+
+**Important:** A large transaction, high-risk jurisdiction, or name similarity alone does not establish criminal activity. The analyst must evaluate the available evidence and follow applicable procedures.
+
+---
+
+## 7. Interview Questions
+
+### Q1. What is the difference between OFAC and FATF?
+
+**Answer:** OFAC administers and enforces US sanctions, whereas FATF develops international AML/CFT standards and evaluates countries' implementation.
+
+### Q2. What is the difference between AML and CFT?
+
+**Answer:** AML focuses on preventing and detecting money laundering, while CFT focuses on preventing funds from being used to support terrorism.
+
+### Q3. What is the difference between SAR and CTR?
+
+**Answer:** A SAR reports suspicious activity that meets applicable reporting criteria. A CTR reports qualifying currency transactions, generally exceeding $10,000 in aggregate in one business day, subject to applicable rules and exemptions.
+
+### Q4. What is Section 314(a) of the USA PATRIOT Act?
+
+**Answer:** It enables law enforcement-related information requests through FinCEN, requiring financial institutions to search their records for specified subjects.
+
+### Q5. What is Section 326 of the USA PATRIOT Act?
+
+**Answer:** It requires financial institutions to establish Customer Identification Programs (CIP) to verify customer identities.
+
+### Q6. Does a FATF high-risk jurisdiction automatically mean every transaction must be rejected?
+
+**Answer:** No. The institution must assess the applicable legal requirements, geographic risk and internal policies. Enhanced due diligence or countermeasures may be required in certain circumstances.
+
+### Q7. Does an OFAC name match automatically mean the customer is sanctioned?
+
+**Answer:** No. The analyst must investigate the match using available identifiers and follow the institution's sanctions escalation process.
+
+---
+
+## 8. Official References
+
+Use these official resources for further reading and regulatory updates.
+
+| Organisation | Resource                                                                                                        |
+| ------------ | --------------------------------------------------------------------------------------------------------------- |
+| OFAC         | [Official OFAC Website](https://ofac.treasury.gov/)                                                             |
+| FATF         | [FATF Recommendations](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html) |
+| FinCEN       | [Bank Secrecy Act](https://www.fincen.gov/resources/statutes-and-regulations/bank-secrecy-act)                  |
+| FinCEN       | [USA PATRIOT Act](https://www.fincen.gov/resources/statutes-and-regulations/usa-patriot-act)                    |
+| FFIEC        | [BSA/AML Examination Manual](https://bsaaml.ffiec.gov/manual)                                                   |
+
+---
+
+## Quick Revision
+
+| Topic           | Remember                             |
+| --------------- | ------------------------------------ |
+| OFAC            | US sanctions compliance              |
+| FATF            | International AML/CFT standards      |
+| CFT             | Preventing terrorist financing       |
+| BSA             | US AML controls, SARs and CTRs       |
+| USA PATRIOT Act | Strengthened US AML/CFT requirements 
+
 
 AML & Transaction Monitoring Interview Resource Book
 
